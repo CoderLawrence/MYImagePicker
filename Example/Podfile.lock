@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - MYImagePicker (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - MYImagePicker (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  MYImagePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MYImagePicker: 941cb48bcf77622c77072a77bab37b59a96eb4dc
+
+PODFILE CHECKSUM: 8e0c3414d88936e1e4b9da4c99bfb7e9be8fbf0f
+
+COCOAPODS: 1.9.1
