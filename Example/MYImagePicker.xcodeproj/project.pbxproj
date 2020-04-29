@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zengqingsong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 95DN6Z98SA;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -496,6 +499,7 @@
 			baseConfigurationReference = 7C526D57C1AAD945E0D2285F /* Pods-MYImagePicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95DN6Z98SA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MYImagePicker/MYImagePicker-Prefix.pch";
 				INFOPLIST_FILE = "MYImagePicker/MYImagePicker-Info.plist";
@@ -512,6 +516,7 @@
 			baseConfigurationReference = 60A1AC7E46A78BED56EFB7AC /* Pods-MYImagePicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95DN6Z98SA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MYImagePicker/MYImagePicker-Prefix.pch";
 				INFOPLIST_FILE = "MYImagePicker/MYImagePicker-Info.plist";

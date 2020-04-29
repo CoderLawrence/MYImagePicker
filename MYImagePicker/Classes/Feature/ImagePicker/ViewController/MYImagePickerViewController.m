@@ -341,7 +341,7 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
                         __strong typeof(weakSelf) strongSelf = weakSelf;
                         if (strongSelf == nil) { return; }
                         if (strongSelf.delegate && [strongSelf.delegate respondsToSelector:@selector(didSelectedImageWithAssetModels:photos:imagePicker:)]) {
-                            [self.delegate didSelectedImageWithAssetModels:[assets copy] photos:[photos copy] imagePicker:strongSelf];
+                            [strongSelf.delegate didSelectedImageWithAssetModels:[assets copy] photos:[photos copy] imagePicker:strongSelf];
                         }
                     }];
                 }
@@ -441,6 +441,10 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
 - (void)onBackButtonClick
 {
     [super onBackButtonClick];
+    if (self.operationQueue != nil) {
+        [self.operationQueue cancelAllOperations];
+    }
+    
     if (self.delegate && [self.delegate respondsToSelector:@selector(didCancelSelectImage:)]) {
         [self.delegate didCancelSelectImage:self];
     }

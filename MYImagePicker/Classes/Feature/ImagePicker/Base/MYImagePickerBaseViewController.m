@@ -14,10 +14,20 @@
 
 @implementation MYImagePickerBaseViewController
 
-- (void)viewDidLoad {
+//MARK: - 生命周期
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {}
+    return self;
+}
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
+    self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
     self.navigationController.navigationBar.tintColor = [UIColor blackColor];
     self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
 }
@@ -38,6 +48,7 @@
     }
 }
 
+//MARK: - 公开方法
 - (void)onBackButtonClick
 {
     if ([self.navigationController.viewControllers count] > 1) {
@@ -50,6 +61,12 @@
 + (BOOL)needNavigationBarHidden
 {
     return NO;
+}
+
+//MARK: - 方法重载
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleDefault;
 }
 
 @end

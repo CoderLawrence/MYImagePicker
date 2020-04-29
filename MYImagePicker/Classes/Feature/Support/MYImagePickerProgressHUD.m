@@ -68,14 +68,11 @@
 - (void)showProgressHUD
 {
     [_HUDIndicatorView startAnimating];
-    UIWindow *applicationWindow = [UIApplication sharedApplication].windows.lastObject;
-    if (applicationWindow == nil) {
-        if ([[[UIApplication sharedApplication] delegate] respondsToSelector:@selector(window)]) {
-            applicationWindow = [[[UIApplication sharedApplication] delegate] window];
-        } else {
-            applicationWindow = [[UIApplication sharedApplication] keyWindow];
-        }
-
+    UIWindow *applicationWindow;
+    if ([[[UIApplication sharedApplication] delegate] respondsToSelector:@selector(window)]) {
+        applicationWindow = [[[UIApplication sharedApplication] delegate] window];
+    } else {
+        applicationWindow = [[UIApplication sharedApplication] keyWindow];
     }
     
     [applicationWindow addSubview:self];
