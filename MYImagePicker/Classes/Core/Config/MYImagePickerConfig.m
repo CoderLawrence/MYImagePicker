@@ -36,6 +36,7 @@ NSUInteger const kYTMaxImageCount = 9;
         self.previewVideoTimeLimit = NO;
         self.allowMinVideoTime = 5;
         self.allowMaxVideoTime = 30;
+        self.allowPickingVideoAsset = YES;
     }
     
     return self;

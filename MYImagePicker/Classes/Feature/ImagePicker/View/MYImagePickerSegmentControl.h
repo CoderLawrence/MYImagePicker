@@ -46,6 +46,8 @@ typedef NS_ENUM(NSUInteger, MYImagePickerSegmentItemIndex) {
 
 @property (nonatomic, weak) id<MYImagePickerSegmentControlDelegate> delegate;
 
+- (instancetype)initWithFrame:(CGRect)frame needVideoItem:(BOOL)needViedoItem;
+
 /// 重置相册列表相关参数
 - (void)restShouldShowAlbum;
 /// 设置选中项

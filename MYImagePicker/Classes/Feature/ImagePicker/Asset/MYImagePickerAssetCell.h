@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIButton *selectedButton;
 @property (weak, nonatomic) UIButton *cannotSelectLayerButton;
 
-@property (nonatomic, copy) void (^didSelectPhotoBlock)(BOOL);
+@property (nonatomic, copy) void (^didSelectPhotoBlock)(BOOL isSelected);
 @property (nonatomic, copy) NSString *representedAssetIdentifier;
 @property (nonatomic, assign) int32_t imageRequestID;
 

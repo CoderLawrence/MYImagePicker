@@ -174,12 +174,12 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
                     [strongSelf.imagePickerVC addSelectedModel:model];
                     return;
                 }
-                
+                 
                 strongCell.previewView.selectedButton.selected = YES;
                 model.isSelected = YES;
                 [strongImagePickerVC addSelectedModel:model];
             } else {
-                [self showPhotoSelectLimitAlert];
+                [strongSelf showPhotoSelectLimitAlert];
             }
         }
         

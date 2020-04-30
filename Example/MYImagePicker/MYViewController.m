@@ -11,7 +11,7 @@
 #import "MYImagePicker.h"
 #import "MYImagePickerManager.h"
 
-@interface MYViewController ()
+@interface MYViewController ()<MYImagePickerDelegate>
 
 @end
 
@@ -37,7 +37,9 @@
 
 - (void)buttonClick
 {
-    [[MYImagePicker imagePicker] showImagePicker:self delegate:self];
+    MYImagePickerConfig *config = [MYImagePickerConfig defaultConfig];
+//    config.allowPickingVideoAsset = NO;
+    [[MYImagePicker imagePicker] showImagePicker:self config:config delegate:self];
 }
 
 //MARK: - MYImagePickerDelegate

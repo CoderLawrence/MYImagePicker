@@ -30,16 +30,17 @@
 
 - (void)showImagePicker:(UIViewController *)viewController delegate:(id<MYImagePickerDelegate>)delegate
 {
-    if (viewController == nil) { return; }
     MYImagePickerConfig *config = [MYImagePickerConfig defaultConfig];
-    MYImagePickerViewController *imagePickerVC = [[MYImagePickerViewController alloc] initWithConfig:config delegate:delegate];
-    MYImagePickerNavigationController *navi = [[MYImagePickerNavigationController alloc] initWithRootViewController:imagePickerVC];
-    [viewController presentViewController:navi animated:YES completion:nil];
+    [self showImagePicker:viewController config:config delegate:delegate];
 }
 
 - (void)showImagePicker:(UIViewController *)viewController config:(MYImagePickerConfig *)config delegate:(id<MYImagePickerDelegate>)delegate
 {
-    if (viewController == nil) { return; }
+    if (viewController == nil || [viewController isKindOfClass:[UIViewController class]] == NO) {
+         NSAssert(0, @"[MYImagePicker:] 传入的控制器不正确，请检查");
+        return;
+    }
+
     MYImagePickerViewController *imagePickerVC = [[MYImagePickerViewController alloc] initWithConfig:config delegate:delegate];
     MYImagePickerNavigationController *navi = [[MYImagePickerNavigationController alloc] initWithRootViewController:imagePickerVC];
     [viewController presentViewController:navi animated:YES completion:nil];

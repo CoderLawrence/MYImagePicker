@@ -123,8 +123,9 @@
     [_playButton addTarget:self action:@selector(playButtonClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_playButton];
     [self.playButton mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.mas_equalTo(self.view);
-        make.size.mas_equalTo(CGSizeMake(75, 75));
+        make.centerX.mas_equalTo(self.view);
+        make.centerY.mas_equalTo(self.view).offset(MY_IMG_Navigation_H/2);
+        make.size.mas_equalTo(CGSizeMake(self.view.myp_width, MY_IMG_SCREEN_H - MY_IMG_Navigation_H));
     }];
 }
 
@@ -167,7 +168,8 @@
     }];
 }
 
-- (void)addProgressObserver{
+- (void)addProgressObserver
+{
     AVPlayerItem *playerItem = _player.currentItem;
     UIProgressView *progress = self.progressView;
     [self.view addSubview:progress];

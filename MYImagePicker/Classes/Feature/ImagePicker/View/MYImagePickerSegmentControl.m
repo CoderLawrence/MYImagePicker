@@ -10,8 +10,9 @@
 
 #import "Masonry.h"
 
-#import "UIColor+MYImagePicker.h"
 #import "UIImage+MYBundle.h"
+#import "UIView+MYLayout.h"
+#import "UIColor+MYImagePicker.h"
 
 @interface MYImagePickerSegmentItem ()
 
@@ -115,6 +116,7 @@
 @interface MYImagePickerSegmentControl ()
 {
     BOOL _shouldShowAlbum;
+    BOOL _needViedoItem;
 }
 
 @property (nonatomic, strong) UIView *indicator;
@@ -130,6 +132,19 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        _needViedoItem = YES;
+        [self setupUI];
+    }
+    
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame
+                needVideoItem:(BOOL)needViedoItem
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        _needViedoItem = needViedoItem;
         [self setupUI];
     }
     
@@ -174,6 +189,7 @@
         CGRect frame = CGRectMake(indicatorLeft, CGRectGetHeight(self.frame) - 2, 10, 2);
         _indicator = [[UIView alloc] initWithFrame:frame];
         [_indicator setBackgroundColor:[UIColor blackColor]];
+        [_indicator setUserInteractionEnabled:NO];
     }
     
     return _indicator;
@@ -184,21 +200,34 @@
 {
     [self setBackground];
     [self addSubview:self.albumItem];
-    [self addSubview:self.videoItem];
     [self addSubview:self.indicator];
     [self.albumItem setIsSelected:YES];
     
-    [self.albumItem mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self.mas_left);
-        make.centerY.mas_equalTo(self.mas_centerY);
-        make.size.mas_equalTo(CGSizeMake(136/2, 23));
-    }];
+    if (self->_needViedoItem) {
+        [self addSubview:self.videoItem];
+        [self.albumItem mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(self.mas_left);
+            make.centerY.mas_equalTo(self.mas_centerY);
+            make.size.mas_equalTo(CGSizeMake(136/2, 23));
+        }];
+        
+        [self.videoItem mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(self.albumItem.mas_right);
+            make.centerY.mas_equalTo(self.mas_centerY);
+            make.size.mas_equalTo(CGSizeMake(136/2, 23));
+        }];
+    } else {
+        CGRect indicatorFrame = self.indicator.frame;
+        indicatorFrame.origin.x = (self.myp_width - 10)/2;
+        [self.indicator setFrame:indicatorFrame];
+        [self.albumItem mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerX.mas_equalTo(self.mas_centerX);
+            make.centerY.mas_equalTo(self.mas_centerY);
+            make.size.mas_equalTo(CGSizeMake(136/2, 23));
+        }];
+    }
     
-    [self.videoItem mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self.albumItem.mas_right);
-        make.centerY.mas_equalTo(self.mas_centerY);
-        make.size.mas_equalTo(CGSizeMake(136/2, 23));
-    }];
+    [self bringSubviewToFront:self.indicator];
 }
 
 - (void)setBackground

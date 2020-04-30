@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MYImagePickerConfig.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @class PHAsset;
-@class MYImagePickerConfig;
 @class MYImagePickerViewController;
 
 @protocol MYImagePickerDelegate <NSObject>

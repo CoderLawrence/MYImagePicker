@@ -120,7 +120,9 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
         CGFloat segmentLeft = (MY_IMG_SCREEN_W - 136)/2;
         CGFloat segmentTop = MY_IMG_Navigation_Top + (40 - 26)/2;
         CGRect frame = CGRectMake(segmentLeft, segmentTop, 136, 26);
-        _segmentControl = [[MYImagePickerSegmentControl alloc] initWithFrame:frame];
+        BOOL needVideoItem = self.config.allowPickingVideoAsset;
+        _segmentControl = [[MYImagePickerSegmentControl alloc] initWithFrame:frame
+                                                               needVideoItem:needVideoItem];
         [_segmentControl setDelegate:self];
     }
     
@@ -138,7 +140,6 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
         [_scrollView setDelegate:self];
         [_scrollView setBackgroundColor:[UIColor whiteColor]];
         [_scrollView setBounces:NO];
-        [_scrollView setContentSize:CGSizeMake(MY_IMG_SCREEN_W * 2, height)];
         [_scrollView setPagingEnabled:YES];
         
         if (@available(iOS 11, *)) {
@@ -200,13 +201,18 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
 
 - (void)addAssetChildViewControllers
 {
+    NSArray<UIViewController *> *childViewControllers;
     self.assetChildVC = [[MYImagePickerAssetViewController alloc] init];
     self.assetChildVC.assetPickerVC = self;
     
-    self.videoChildVC = [[MYImagePickerVideoViewController alloc] init];
-    self.videoChildVC.assetPickerVC = self;
+    if (self.config.allowPickingVideoAsset) {
+        self.videoChildVC = [[MYImagePickerVideoViewController alloc] init];
+        self.videoChildVC.assetPickerVC = self;
+        childViewControllers = @[self.assetChildVC, self.videoChildVC];
+    } else {
+        childViewControllers = @[self.assetChildVC];
+    }
     
-    NSArray<UIViewController *> *childViewControllers = @[self.assetChildVC, self.videoChildVC];
     for (int i = 0; i < childViewControllers.count; i++) {
         UIViewController *childVC = childViewControllers[i];
         [childVC willMoveToParentViewController:self];
@@ -217,6 +223,10 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
         [self.scrollView addSubview:childVC.view];
         [childVC didMoveToParentViewController:self];
     }
+    
+    
+    CGFloat height = MY_IMG_SCREEN_H - [MYImagePickerNavigationBar height];
+    [self.scrollView setContentSize:CGSizeMake(MY_IMG_SCREEN_W * [childViewControllers count], height)];
 }
 
 //MARK: - 逻辑处理
