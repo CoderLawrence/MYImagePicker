@@ -46,8 +46,13 @@ static NSString *const MYImagePIckerAllbumCellIdentifier = @"MYImagePIckerAllbum
         [_tableView setBackgroundColor:[UIColor whiteColor]];
         [_tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
         [_tableView registerClass:[MYImagePickerAlbumCell class] forCellReuseIdentifier:MYImagePIckerAllbumCellIdentifier];
+        [_tableView setTableFooterView:[self tableFooterView]];
         [_tableView setDataSource:self];
         [_tableView setDelegate:self];
+        
+        if (@available(iOS 11, *)) {
+            _tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        }
     }
     
     return _tableView;
@@ -62,6 +67,13 @@ static NSString *const MYImagePIckerAllbumCellIdentifier = @"MYImagePIckerAllbum
     }
     
     return _containerView;
+}
+
+- (UIView *)tableFooterView
+{
+    UIView *footerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, MY_IMG_SCREEN_W, 15)];
+    [footerView setBackgroundColor:[UIColor whiteColor]];
+    return footerView;
 }
 
 //MARK: - 视图更新
