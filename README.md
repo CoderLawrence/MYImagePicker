@@ -5,11 +5,24 @@
 [![License](https://img.shields.io/cocoapods/l/MYImagePicker.svg?style=flat)](https://cocoapods.org/pods/MYImagePicker)
 [![Platform](https://img.shields.io/cocoapods/p/MYImagePicker.svg?style=flat)](https://cocoapods.org/pods/MYImagePicker)
 
+## Introduce
+
+MYImagePicker is a custom photo album component that supports the selection of images and videos.
+Thanks: ![https://github.com/banchichen/TZImagePreviewController](https://github.com/banchichen/TZImagePreviewController)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```Objc
+    MYImagePickerConfig *config = [MYImagePickerConfig defaultConfig];
+    [[MYImagePicker imagePicker] showImagePicker:self config:config delegate:self];
+```
+
 ## Requirements
+
+iOS 8 or later. Requires ARC
 
 ## Installation
 
