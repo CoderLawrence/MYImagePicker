@@ -28,6 +28,7 @@ NSUInteger const kYTMaxImageCount = 9;
     config.maxImagesCount = 1;
     config.allowCrop = YES;
     config.showSelectBtn = NO;
+    config.allowPickingVideoAsset = NO;
     NSInteger left = 15;
     NSInteger widthHeight = MY_IMG_SCREEN_W - 2 * left;
     NSInteger top = (MY_IMG_SCREEN_H - widthHeight) / 2;
