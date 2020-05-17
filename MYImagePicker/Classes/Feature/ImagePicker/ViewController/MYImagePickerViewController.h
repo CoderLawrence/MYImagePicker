@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MYImagePickerViewController : MYImagePickerBaseViewController
 
-/// The photos user have selected
 /// 用户选中过的图片数组
 @property (nonatomic, strong) NSMutableArray *selectedAssets;
 @property (nonatomic, strong) NSMutableArray<MYAsset *> *selectedModels;

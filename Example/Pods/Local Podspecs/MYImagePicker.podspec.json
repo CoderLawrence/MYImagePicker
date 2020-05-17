@@ -2,7 +2,7 @@
   "name": "MYImagePicker",
   "version": "0.1.0",
   "summary": "图片选择器，可以选择视频和图片",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "MYImagePicker，图片选择器，可以支持选择视频和图片",
   "homepage": "https://github.com/CoderLawrence/MYImagePicker",
   "license": {
     "type": "MIT",
