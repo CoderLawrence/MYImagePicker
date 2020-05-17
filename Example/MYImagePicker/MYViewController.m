@@ -37,7 +37,7 @@
 
 - (void)buttonClick
 {
-    MYImagePickerConfig *config = [MYImagePickerConfig defaultConfig];
+    MYImagePickerConfig *config = [MYImagePickerConfig defaultCropImageConfig];
     [[MYImagePicker imagePicker] showImagePicker:self config:config delegate:self];
 }
 

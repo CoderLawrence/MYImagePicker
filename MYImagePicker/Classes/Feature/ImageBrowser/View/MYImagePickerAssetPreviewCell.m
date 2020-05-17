@@ -259,7 +259,17 @@
         if (![asset isEqual:self->_asset]) return;
         self.imageView.image = photo;
         [self resizeSubviews];
-
+        
+        if (self.imageView.myp_height && self.allowCrop) {
+            CGFloat scale = MAX(self.cropRect.size.width / self.imageView.myp_width, self.cropRect.size.height / self.imageView.myp_height);
+            if (self.scaleAspectFillCrop && scale > 1) { // 如果设置图片缩放裁剪并且图片需要缩放
+                CGFloat multiple = self.scrollView.maximumZoomScale / self.scrollView.minimumZoomScale;
+                self.scrollView.minimumZoomScale = scale;
+                self.scrollView.maximumZoomScale = scale * MAX(multiple, 2);
+                [self.scrollView setZoomScale:scale animated:YES];
+            }
+        }
+        
         self->_progressView.hidden = YES;
         if (self.imageProgressUpdateBlock) {
             self.imageProgressUpdateBlock(1);
@@ -291,6 +301,13 @@
     _index = index;
     self.indexLabel.text = [NSString stringWithFormat:@"%zd", index];
     [self bringSubviewToFront:self.indexLabel];
+}
+
+- (void)setAllowCrop:(BOOL)allowCrop
+{
+    _allowCrop = allowCrop;
+    [_selectedButton setHidden:allowCrop];
+    [_selectImageView setHidden:allowCrop];
 }
 
 - (void)updateSelectedStatus

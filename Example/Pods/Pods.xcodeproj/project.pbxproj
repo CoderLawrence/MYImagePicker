@@ -7,122 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007D7EB052F147F7A793F9227116E967 /* MYImagePickerAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243AC0AF788661BC49B375152982109 /* MYImagePickerAlbumCell.m */; };
-		02F60A8DFBC25A4A6B501B7C6F40DB25 /* MYImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE9C1631C2EDFC11BCB52757AD945C6 /* MYImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0511DBCC884ED1023B74892A32B8CDB5 /* MYImagePickerPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31A295B09207C81C9B8BD5D8C17305 /* MYImagePickerPhotoPreviewViewController.m */; };
-		05EFF3DABD9E836754D5B62514D4AA50 /* MYImageFetchOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CEEE1490C51FF58F7DB21860736446FA /* MYImageFetchOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06AA1AD815C1D0633BFCBE8226613561 /* MYImagePickerAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F6124546AC8620BBFD35400EFE2FE1E6 /* MYImagePickerAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		093885DD4718522AFB365BBB00E3C5C5 /* UIView+MYLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D1733D34A06E2E829733F540BFFA1D /* UIView+MYLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CDFC0E66049391A1E0547D2BF65572E /* MYImagePickerManager+Observer.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A753F4074A7F333051FC8C0843F13 /* MYImagePickerManager+Observer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12A86D99DBDD602C8952040ACA14403A /* MYImagePickerAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0738C48091EE45B37E28844200DD749C /* MYImagePickerAssetCell.m */; };
-		1316916454A50DEC0017D0C4B4CB46E4 /* MYImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B122DAA4D7A0A78597ABF15AC0A8F3 /* MYImagePickerManager.m */; };
-		132089A1FF8D9ABEE7A7FD76B2743CFC /* MYImagePickerVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65843DC26AFDEDE047D77960096012F5 /* MYImagePickerVideoCell.m */; };
-		16EE19ADB2086A54D544570D926AB8AE /* MYImagePickerProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E102CF48C34B0286ACE938DA1349957F /* MYImagePickerProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		178AC419126827C31732536457BFB365 /* MYImagePickerVideoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08322CD04C721230BF43EFE543304CA /* MYImagePickerVideoPreviewViewController.m */; };
-		1819BB4C8524FA7500971E77305F1F31 /* MYImagePickerAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AB26036A714E77135F3CBD1576081 /* MYImagePickerAlbumView.m */; };
-		196806C7732ED99610B372D1AECFE646 /* MYImagePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D772CF59BA4CFBB3470001DE8990CB34 /* MYImagePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A6DC814CFC868F7AD073122CACF6C2C /* MYImagePickerDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A5C6DB0F38688F091FC39DC80EA534 /* MYImagePickerDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D247EB803D087779A82A81B5C75AD91 /* MYImagePickerNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BE81B2F8FC8D197510AAAFAB4571E1 /* MYImagePickerNavigationBar.m */; };
-		23D9982FF210623E022D2A7E739BE6C2 /* UIImage+MYBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2046443F1DB011AE09C449BD7A9D8DBF /* UIImage+MYBundle.m */; };
-		26805C05F53130165794A87BEA284BC3 /* MYImagePickerProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DB207CA9FE859B11C099295A0AD07C77 /* MYImagePickerProgressHUD.m */; };
-		366892CCAD385BD8B27FB3D9E0FE7BE3 /* MYImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E57B78E08FD5AC5F7D415B7B81591 /* MYImagePicker-dummy.m */; };
-		372DA2496B825E18481D636F7BE516F1 /* MYAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BCF1B620F75F3A7CF3FCADB1AC06E /* MYAlbum.m */; };
-		37F9154061CFE11F9DD4B8BB395F12D5 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38F670571ABF4A0BB8CA6F009ACE16EC /* MYImagePickerManager+Authorization.h in Headers */ = {isa = PBXBuildFile; fileRef = FF68A932FF0AF955FB6A4FE9A54C358E /* MYImagePickerManager+Authorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F17E8B1794AC7D36B86BD624B56D725 /* MYImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 390650D5F0FCD06C46554CAFF3FB9A63 /* MYImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		438BA1FC0FEE2620EA27F4AF834BADDF /* MYImagePickerPreNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B1517E3885990AA880CE96DCE874345B /* MYImagePickerPreNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A77157D7EB9FBA601F4ED495BABE5A5 /* MYImagePickerNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2787CC5A8F40A8190661FE1563880792 /* MYImagePickerNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0474D02FEFF26376C6BB0136CD26A50B /* UIColor+MYImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 949A8C394B0E78815BCDD4571AD67711 /* UIColor+MYImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B6B69C41930923ED53F4A689275F93 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D9F3DDFC9A7BB7E9D96B0B2CFA1BFC1 /* MYImagePickerManager+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BD0F9A31826AAE2E87EF138C7B6D95 /* MYImagePickerManager+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100D3AAE8358568818F91DFA444D9B63 /* MYAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = F545047350B07128A6C8427EC44D4CFC /* MYAlbum.m */; };
+		15223D8C519B9BA49070AF9A1FCBB85A /* MYImageFetchOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 47AEE3792349CE9E0E82605991785ED2 /* MYImageFetchOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1625AF7298C1066B8A375FF7410A1DA7 /* MYImagePickerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C98D351AA38013ED60803CC577A2297 /* MYImagePickerConfig.m */; };
+		16ED9B161EBE231CA548CDBFA94E6786 /* MYImagePickerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834A796DA198EDDBA02CBA7B27858FD9 /* MYImagePickerBaseViewController.m */; };
+		17D556C4BB987FFC6604E9436A37EB06 /* MYImagePickerAuthorizationTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 946BD86D5A851E33B5E2F82FDE812F7B /* MYImagePickerAuthorizationTipsView.m */; };
+		1B44E673DA643718D8A0834C44FFB651 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C7FDC7412C8D341879344937522143E /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202BEDE08DB912659624CB54FA0096B6 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		268649407C94F082F6DC5CA9614637B2 /* MYImagePickerAuthorizationTipsView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB5A62E673C8F5FD4440A9B10E509102 /* MYImagePickerAuthorizationTipsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		293CD7791350FEFF9DB3DF07EB70112D /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC5EB1F091CDFA47F049F4F142DDBFE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2C2ABAB466A8FFC4BE9E665D79DBA6CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DBF34B0A3F655207AE1F59E9D8FE1C /* Foundation.framework */; };
+		2D82DEAF115208C7212D522E2DD958B5 /* MYImagePickerManager+Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AA29804E75FC66A57672AA692A60F7 /* MYImagePickerManager+Observer.m */; };
+		2FBB5974A84163E5318F91576FA7E5E3 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31334BF52E34D160198EB0FF8060E5E2 /* MYImagePickerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E5A7675EFD2F6199801A2BA9DB0B3E /* MYImagePickerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		314A8E3C2284D20B450A9ED8DA72B359 /* MYImagePickerManager+Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F4F1FC5A4A59F7CCDC4F85EC301097 /* MYImagePickerManager+Queue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34728415A5E8395C5AF898E2CE66F03A /* MYImagePickerAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1285337A0ADD3CBB8495BE7FAF49F7 /* MYImagePickerAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		381CEF1C8066B2FF642F1991D455A40D /* MYImagePickerDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = CBAEB8D0D1E56F7F8E8A928D4296AB41 /* MYImagePickerDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B2F82A1BFB2ED95F2A1EDF0ACE35F55 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D764C28D8EA4760A020B511E846CD4A /* MYImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A617F7B0E8A26130A24FDB0E5C3334 /* MYImagePicker.m */; };
+		40ACF3643F9A7EE5639E690F9AC9BE56 /* MYImagePickerVideoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C737AC0A5CCFE8FAACA09AE9C03106D6 /* MYImagePickerVideoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41810D99E71D708FD9318DE39207452E /* MYImagePickerAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = E98DC2705B3743DD57E9AF8E3F1A066E /* MYImagePickerAlbumView.m */; };
+		423C8CF7E96310B0FA641E2168DBABF2 /* MYImagePickerAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D631936D03F65A4B9D28D2CF2BCE4C /* MYImagePickerAssetCell.m */; };
+		42E53AAC0455FF552D0AE5D3171FF112 /* MYImagePickerMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0863FBD699329735E7ADE2B4C65512 /* MYImagePickerMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435BBFDB913DCFF93447D375D9227435 /* MYImagePickerCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60864496DC81BAAA1781960AFCC391BC /* MYImagePickerCropManager.m */; };
+		43FC161200FDD65C8BC138C9E982FFB9 /* MYImagePickerPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CC01DC8EA38420358B212E9357385B /* MYImagePickerPhotoPreviewViewController.m */; };
+		44F7D6394F37EDB1F13CB1DACB7051B9 /* UIView+MYLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A17CCCB335D4E411EFD44D0F4841F55 /* UIView+MYLayout.m */; };
+		45E7D48BCDF2E0BC6072C85813FFDDA0 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B26224AD10B4158E8F9F83A5659A8AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DBF34B0A3F655207AE1F59E9D8FE1C /* Foundation.framework */; };
-		4B36461980416618100E6CE21B0EFE24 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BAB9F9D72C774BA96CBA1D1262FEC0A /* MYImagePickerManager+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = AADA86F50F8735C280D81B0DE783CFE2 /* MYImagePickerManager+Queue.m */; };
-		4E41D11F42FA2C399ED9625C7000721E /* MYImagePickerSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EB65DA9AC6CCDFB56741153858D354 /* MYImagePickerSegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F25956A6882C714B95591250CAFB8F7 /* MYImagePickerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B83DFB46E09960E1FA117FB9D06EE166 /* MYImagePickerProgressView.m */; };
-		52E0FD7F87B218BA8CFFA35DA90EF743 /* MYImagePickerVideoPreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C69E2C24953DCBD35D928DCDBBF788C8 /* MYImagePickerVideoPreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58E3B3A4A02C9A1E858FB9CC645AD4E7 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CFD31F334027F4C5400161A3E60F594 /* MYImagePickerManager+Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 388313489C70691AE4DEE81DF061273E /* MYImagePickerManager+Queue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E2E24AC576FEE23CDF8C14513B964D5 /* MYImagePickerAlbumView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4395B042D66A870CD2303317EA86B7EF /* MYImagePickerAlbumView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FAC81A2D6E12A26482E75441FAD81FA /* MYImagePickerManager+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 121B83156D0CB0231135325C9CC785C9 /* MYImagePickerManager+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61144723DF717B3415D83C97E5C32D67 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63456A5254361B7577BFF753918FE79D /* MYImagePickerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EDB6D36F5B4BF50829596587E43323 /* MYImagePickerBaseViewController.m */; };
-		64FC9F33B5D289BC42262AA85CA09E27 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
-		652EBF1FDA48B416B4A76D9FB101F6B8 /* MYImagePickerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5C4550A1C191643B7AED895B75406 /* MYImagePickerConfig.m */; };
-		6677B0CD59492AE9C54AA4A0E635C48F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
-		6D8BBE2E8CF3A4A9F333D535E667DBCB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
-		6D9A858F61CD5CB93331BD7820096AA2 /* MYImagePickerVideoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A9E3A0210BD55B4722268258A83C1D /* MYImagePickerVideoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72268050E0E8A014863AA1F0F6D1E1ED /* MYImagePickerVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2CA57EE86B5CC571256984AEE8DA1 /* MYImagePickerVideoViewController.m */; };
-		730266138853E0C7A04E3B39CEC40A25 /* MYAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E546AE48161C5A6D67F3DD273C41C91 /* MYAsset.m */; };
-		735BAECD1D0E3E08E70DB749AF5EE646 /* MYImagePickerManager+Authorization.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FA891F1EEDA4E78EAEC0330FC64E1E /* MYImagePickerManager+Authorization.m */; };
-		74408AC2A66605D3783DA8F201A6CB60 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79883F00CF2D07822D16FB7ED367F023 /* MYImagePickerNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B98B353F237C861C7B104D8D477C03 /* MYImagePickerNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DFE173B46D81C4BFBE8464C4BA2060A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C50F7A9EF62B8E410636BB37F0F615D /* MYImagePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 490E64AD88CB32901DA5E07146C252CE /* MYImagePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D3FCDD7C82C3050EFFB41B6D0FC8C56 /* MYImagePickerAlbumView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA700C5CE659A1B9121D51D743BCA0E /* MYImagePickerAlbumView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D616D44CB69B77DAD0C8A63D33CBACB /* UIImage+MYBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = B93A9A33A3CE637BB394974559F113DC /* UIImage+MYBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56611DB1775712F76E71E03DA5102611 /* MYImagePickerAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F5DFC4D8775E8B41F101CB2F1FDA50 /* MYImagePickerAssetViewController.m */; };
+		5753C5F31B4FA5E647C1260DD5BE2D55 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
+		57A91A09003FB34E5DABEDF6855EACAE /* MYImageFetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DD84F96799F7D9A7ECAA92FEE3122A /* MYImageFetchOperation.m */; };
+		59022227D8AD25D7386311126B4E4220 /* MYImagePickerSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7F000EE0302BDD25CB029BE5380178 /* MYImagePickerSegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BDFB56199CBA6F23EB46940BC3ACA10 /* MYImagePickerCropManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 947AB206C71210035557318B2A73E737 /* MYImagePickerCropManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CBB1E30E5944689AF12C17231EA5A14 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
+		5E51E1FB12CD59001F63F5CEE93880E2 /* MYImagePickerVideoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CEB626A0D65FE7B24C4C4993C05389 /* MYImagePickerVideoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F61E3E3289EC3FBF76F772E17040CE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DBF34B0A3F655207AE1F59E9D8FE1C /* Foundation.framework */; };
+		5F6520744145D4662F9EC1433C7FFE12 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
+		6C9F05A0C4CA29FE96FE4F0BF0D66F48 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF537943DA73F341964DFE7C600FC6E /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		708EC4A2156BE6B12881F9172B1757D9 /* MYImagePickerAlbumCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B844F8120715367B9985DEE3277A2B /* MYImagePickerAlbumCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740E50168E98011B3689C57BFC799DF5 /* UIImage+MYBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC79BE4411DCAFBEC21BAF0A196C316 /* UIImage+MYBundle.m */; };
+		74A83376F8677A259E2EB0D132F5F945 /* MYImagePickerNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 68853151DA6EF60340D0F66B0C6B1EDC /* MYImagePickerNavigationBar.m */; };
+		7562EF3DCAF67F25DB9B4BFC756A9B2A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79FC0E5D7304B7FAD56E8B6BADC01DEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C87868DB898CCFEB79D5A0C516727FF /* UIKit.framework */; };
+		7D4347517AEF85CA45AB931C45B703C5 /* UIViewController+MYImagePickerHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2833646AA611B07EF5AD01FEDB00D197 /* UIViewController+MYImagePickerHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8014A199708FDB5C184A9BB93B136EA1 /* Pods-MYImagePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C12EB197D99B87343FAD5AE381A053C /* Pods-MYImagePicker_Tests-dummy.m */; };
-		8149E58EA5EE9F3540C7396E5BA5DF55 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82D5C096446F189C4118358EB33EE336 /* MYImagePickerSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD5582045A90C686A1DC0EACEFA5ED /* MYImagePickerSegmentControl.m */; };
-		848F11D707BC636610552CF072F271E1 /* MYImagePickerBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19221DC2D52513E72CAFD6A5A2EAA6F8 /* MYImagePickerBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84A52A2CDB1655D66D73FEF96E18ABD3 /* UIViewController+MYImagePickerHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2F6AFDD5A3584B9051FD39D14DE0C /* UIViewController+MYImagePickerHUD.m */; };
-		86E8E6B5EA0058D8BBC868C78FAB822C /* MYImagePickerManager+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEFFAE3FF13387DC7E76074447534A /* MYImagePickerManager+Helper.m */; };
+		832ECDB76B7055D4CA49905490263500 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
 		8893BAC264B5BECA53AC91272640AEA3 /* Pods-MYImagePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B04CB282D248225B8B8C6F751929CA82 /* Pods-MYImagePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89B7167F9714A75E5ECB76F112B016E7 /* UIViewController+MYImagePickerHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEE963931991E274E646DD807E4BA49 /* UIViewController+MYImagePickerHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A6A279525479BCBC5866ACB521E56B6 /* MYImagePickerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9810882FDD5D7EF71CB79F23DD9AF228 /* MYImagePickerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F48824AE3D7053EF7A7E736DD2B6FBA /* MYImagePickerAuthorizationTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DC24A24FA3A8E13721721EE26D7CF6 /* MYImagePickerAuthorizationTipsView.m */; };
-		9124317FB96792DF012F8A8DD1D762F5 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442E2090D41257DEFB1ED2D0EC9DE2BD /* Masonry.framework */; };
-		961B652276546DF700BBD2ECA60B135F /* MYImagePickerAssetPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5FCF4AD05D79792E77F45F9396CFE5 /* MYImagePickerAssetPreviewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96A814B16BDF30F0ED3386223D032872 /* MYImagePickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C420C940E545F74AA8C32E38F7113 /* MYImagePickerNavigationController.m */; };
-		97C995618AA70AA8C50CDE2B6B62443E /* MYImagePickerPreNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5D590A5B2A69F0CAA07C741F9B8E6 /* MYImagePickerPreNavigationBar.m */; };
-		9A374026B9B53F195369476FB88F8012 /* MYImagePickerAssetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F4BD13CDB172D0A6DEEFCA76BB353C /* MYImagePickerAssetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B552E6FE0DC417915C2B1BBF9166AE4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		9D847BCCEA7E31D29CC0E90F1556D1AE /* MYImagePickerAuthorizationTipsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DBB92239C5162E3B0069AC5FA0C4A6 /* MYImagePickerAuthorizationTipsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E51E794BACCB56C19DAE636085710F3 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
-		9E8720BFF06F89D8EDD9E353C60FBFC1 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EDA03B3E5AA12878C657AC26F05F919 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C87868DB898CCFEB79D5A0C516727FF /* UIKit.framework */; };
+		8C382EC15CEC46CECCD8D91399B37489 /* MYImagePickerVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF382CAA7E187EA23749C703F9B46B8 /* MYImagePickerVideoViewController.m */; };
+		8CF78D411A535C114707DA3E98D5EF5D /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4A38DC5560CDEE5BD7C137159502BC /* MYImagePickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD37931E5A4964E3AB4A7F4BAAEE3C0 /* MYImagePickerNavigationController.m */; };
+		8D4B4469FE817DA90D5729CF9179F4CD /* UIView+MYLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D568BF0801C89AA0243EF80C3063CE /* UIView+MYLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94AA38E508DD7A3FFE2C5FA8B4353561 /* MYImagePickerAssetLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D0FAEB90BF944B7E7BB1699CDDC3A /* MYImagePickerAssetLayout.m */; };
+		9610E3B4BE6B5B5FFB1E08B29B58E48A /* MYImagePickerNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A9642A341CA4185F67EB08FFF4EE8C /* MYImagePickerNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D53C722EBC808E1110278971C6C504 /* MYImagePickerAssetPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A68AA260CCBEF7714C237499EB544203 /* MYImagePickerAssetPreviewCell.m */; };
+		96DF94F6CF879CF0E14378A6978ACC3E /* MYImagePickerProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = CADDAB664276F1DFE20699166D262F5E /* MYImagePickerProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AAB9905550166F017BD0F635A3C92AA /* MYImagePickerAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CACE50180BBDA981A49A8787F98B39 /* MYImagePickerAlbumCell.m */; };
 		A071EEBBCD115B9C6972EA76CF2C814D /* Pods-MYImagePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68097ABCE4E60D269AAE28E2CDAD7A /* Pods-MYImagePicker_Example-dummy.m */; };
-		A141F999006E92D792DCCC38DB9082A3 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A191037F8F6F8E29C668E535D6950245 /* MYImagePickerManager+Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C692C0BD4DD9F60F242F18350F1B0 /* MYImagePickerManager+Observer.m */; };
-		A19FAC2962A09D19068400C1731139CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DBF34B0A3F655207AE1F59E9D8FE1C /* Foundation.framework */; };
-		A59299F01E5F25E395D195EE3D8F2DA8 /* MYImagePickerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C466DBFC8B4E423D94353BB6168A91A5 /* MYImagePickerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5A17DCAA58E8FF1A59E197638337EF1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
-		A9CF8BDB8CD6D225CA541A960768A45B /* MYImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A617F7B0E8A26130A24FDB0E5C3334 /* MYImagePicker.m */; };
-		AB3F006C4755424294193E9FAD1837BD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
+		A13F0A1DAE1A35FC6DCAA98FE8D370D2 /* MYImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 390650D5F0FCD06C46554CAFF3FB9A63 /* MYImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A768AD3479837052A069922B3DFD8F99 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89C85611E381904575B59666237711C /* MYImagePickerPreNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 334B86839ACE88CAFAE7696C1CE22ACD /* MYImagePickerPreNavigationBar.m */; };
+		AD22706499FB804C58F91F32063BE3F4 /* MYImagePickerManager+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C885E47BBCF91BAC6700A582A5F44 /* MYImagePickerManager+Queue.m */; };
+		AE131B50DA0FC443AC4B0738DD5092DF /* MYImagePickerAssetPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E073832533ECF26EBDE70065031CFB /* MYImagePickerAssetPreviewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0149F3AB96669810F973FAB7920BE9B /* MYImagePickerVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B62EC72C5FEBEE100D804FC54EFAF0F /* MYImagePickerVideoCell.m */; };
 		B082FE6D41141DAF2A67C312D6B4A0C5 /* Pods-MYImagePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72749C262532EED9CD88ADAAB17007E7 /* Pods-MYImagePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0C29964E698F622AB65E71F10F0FB51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DBF34B0A3F655207AE1F59E9D8FE1C /* Foundation.framework */; };
-		B1917CC40592B8476BBB192F621965FD /* MYImagePickerMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = D63E4B7B2D01C6F4DDA6CB466B67442E /* MYImagePickerMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2ABAD79752DCD934FA8B5DBFC70394D /* MYImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2562451BCAB3D91AA954803F6B1CECC /* MYImagePickerViewController.m */; };
-		B77765ED60BF0C8CB55472A498F82BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DBF34B0A3F655207AE1F59E9D8FE1C /* Foundation.framework */; };
-		C4058E0427640C52D47401D3254F4CAD /* MYImagePickerAssetLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB337F94FABCB6D160952D29C1A88F /* MYImagePickerAssetLayout.m */; };
-		C4C7BD06DF4D922C5DCA1FAB583A8CE4 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5A81600040B037AD69949127E57975A /* MYImagePickerAlbumCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 095CF41D6452EA95E1A0E3ADD8D2B5D4 /* MYImagePickerAlbumCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5D56D3EB938437BE81F9B0456C348C7 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C92F40F2FA5CE9DB77F6DAD194103A77 /* MYAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 310D2F9A3DBE98920A04FBB1AF8D3806 /* MYAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9B18C7696651247B0C4A6DFEB47C4F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAB5A47022BEA054A1004B6CA0E5B367 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBBC71B5A936C4EAFE2B17C1D24E9B98 /* MYImagePickerProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D71C4C030EF84E10C16D593D00A063 /* MYImagePickerProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDB624E5D136B40050ED8750FD935904 /* UIColor+MYImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E14E63902458CCA6003B58B089A649 /* UIColor+MYImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE01350940FF5923D8CBB9E1B46DD907 /* UIColor+MYImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC3863DCF28C63D934AC5E7601E6937 /* UIColor+MYImagePicker.m */; };
-		CFF2F82390D0E44E03CE9167C144CB20 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
-		D1D822FC018762E8011D6DE97203A5DB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
-		D9AFEE3DB2E254ADF5322B359354AF9B /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
-		DD9AEA7D1041C840353BF491D66C524C /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F768E00B02C9497FCA13FB7769B18BFF /* Photos.framework */; };
-		DEA25F0B87CA35635A33BD970ACBFEAA /* MYImagePickerVideoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 651AA28A741FB40ECCBC93E0BA767E7E /* MYImagePickerVideoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEB7398EDB9B222703C76134E052CF63 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
-		DEE238110747417128A43414E2B27C26 /* MYImagePickerAssetPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B35F66B687748FC5EE08B436231B6A1 /* MYImagePickerAssetPreviewCell.m */; };
-		E4F37D5B5D3C58ADEAE1545B0624780C /* MYImagePickerVideoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE01919D8C85EC56D28D17C30EAB0FF /* MYImagePickerVideoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5739F13FDDB0C7B9DE4A5150FDEAB36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C87868DB898CCFEB79D5A0C516727FF /* UIKit.framework */; };
-		E5A7EF7A2838DFBD6BA7C070097ADB17 /* UIImage+MYBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D2F94F7EF8BD62155DEA55950A9441 /* UIImage+MYBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED529D414EB6489957849F9F1F666957 /* MYImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1E0EFE49AFE88E57320B5E9CB0E206E /* MYImagePicker.bundle */; };
-		EF0B5BC4A61834FA440B8E341B26DAFD /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0C26ED81D87A451505DADB6E3AFBB02 /* MYImageFetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB0F1CAF13BC734B0BCC8082156050D /* MYImageFetchOperation.m */; };
-		F4ECC4B9A5CAF87E0BFAAEF9EED6A6D8 /* MYAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 220910DE6D0E61EBB21541919BC38407 /* MYAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F574111C8072A3D76B7BCE6434E15655 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F80405CFED287A8ECDF37C6406F216C2 /* MYImagePickerVideoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1E165E5EF73642CAF58DC4D7F5BE9F /* MYImagePickerVideoLayout.m */; };
-		FA1ABDEDFDFF22AF5B73B2D0CD593971 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA20E9312BD700714D2DDB7ECFD31659 /* UIView+MYLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B90BAFFD433D71C63ADF0FE2CBE3CC /* UIView+MYLayout.m */; };
-		FC3ECA12922B7ED3CE7EF9EE3715231D /* MYImagePickerAssetLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 52918F85BC535D0DA63C689F6C65F72F /* MYImagePickerAssetLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCB605D0F8B634EF2694E9E7AF240448 /* MYImagePickerPhotoPreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD37266F981E4C14709E3A13FFD4179 /* MYImagePickerPhotoPreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD8F3EED99DB9A4AC477E06BB9995E67 /* MYImagePickerAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6B31487D2C28E976C6E5A75D64D24 /* MYImagePickerAssetViewController.m */; };
+		B15D90F706298A3B034DDBEC73060768 /* MYImagePickerVideoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB67FB265FEE561F4B787A8672D561F /* MYImagePickerVideoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B352B08BBAFE0883FEF72E52C67AEDBE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442E2090D41257DEFB1ED2D0EC9DE2BD /* Masonry.framework */; };
+		B443E82E94F4EEDEDBA86551F57552FC /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
+		B8B81CE478D057919850190A9A1EA4F6 /* MYImagePickerVideoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81BBD0DC09E35656B9CFB5414466271 /* MYImagePickerVideoPreviewViewController.m */; };
+		BC87EF7407CE571DA2BF789508F04421 /* MYImagePickerManager+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4C0315BB5151982FA0974F30C287B /* MYImagePickerManager+Helper.m */; };
+		BDE36D6FFC802F9E4FBDAB3108FFDDE1 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
+		C14AAFACA0388F789C680F56B7C893BE /* MYImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE9C1631C2EDFC11BCB52757AD945C6 /* MYImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F86BF55F3CB537AE809463F7009100 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
+		C2F97CDB19D501464558A53F66E243E3 /* MYImagePickerProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A51E7DFA8B2E8ED9B6DE4BBEB0DCDE8 /* MYImagePickerProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C383D530A9E63E99A298B6D587A19E49 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
+		C5064A8248D04F38ED84637B75898292 /* MYImagePickerVideoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FA343D433AE654B5FF2B4064EDC213B5 /* MYImagePickerVideoLayout.m */; };
+		C76C2DECDBDA1BAB5DEE9DEB20E5D1D2 /* UIView+MYImagePickerCrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB7D3D6BE10B4A9E71D91CDB486DE62 /* UIView+MYImagePickerCrop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C903188C1AFF956511A4C0CFAB425869 /* UIViewController+MYImagePickerHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A254CC3C792BB712A7B578EC6E1D481 /* UIViewController+MYImagePickerHUD.m */; };
+		CCC9FD181A92C2D2627473CBF5F3C1B0 /* MYImagePickerBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B70AE1604227C07329C3E7B7FA4B63D9 /* MYImagePickerBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D0051CDFB355DD1CADDF4D17F3A09F /* MYImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1E0EFE49AFE88E57320B5E9CB0E206E /* MYImagePicker.bundle */; };
+		D4AA876A19C5E7F4117C36401D52242F /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D59D3E46B5285647CFAAA9517A2F225B /* MYImagePickerManager+Authorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9A41134542C02B3D0AC717378B940 /* MYImagePickerManager+Authorization.m */; };
+		D81AB7DF0D9E6FB0447E42E559D42EF9 /* MYImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 860BBE1682ED026052752C476E1A3563 /* MYImagePickerManager.m */; };
+		D8D305A983EC10E8105926ED94A26F5D /* MYImagePickerProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E64CF3A32788CDCDA23F2583B3D96A /* MYImagePickerProgressHUD.m */; };
+		DA52DB90283F1DB17C0230FCB311789F /* MYImagePickerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E2C6D9F739D5EE3004D093466A977 /* MYImagePickerProgressView.m */; };
+		DCAF05E59077C2FCCADCD277183F4728 /* MYImagePickerAssetLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CD21DF5B7A5A91AA134C7F6042C9DA2C /* MYImagePickerAssetLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCEB3A1EC58B4C1BC40042986E88B34D /* MYImagePickerManager+Observer.h in Headers */ = {isa = PBXBuildFile; fileRef = A644AB94CDE08CD876B34FC95979344C /* MYImagePickerManager+Observer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB426D2B208BA9A2392591A0C5FF89C /* MYImagePickerAssetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1590D19177F5FF34305CEB81BB606B78 /* MYImagePickerAssetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE2A28D4570E482F6F3ABA01D2378071 /* UIColor+MYImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B93620AAB9D641672D4B59A2639B3 /* UIColor+MYImagePicker.m */; };
+		DF011E74951DC111741D678CDFE170BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C87868DB898CCFEB79D5A0C516727FF /* UIKit.framework */; };
+		E15B750F2AE0E26CD06889AE96974472 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F768E00B02C9497FCA13FB7769B18BFF /* Photos.framework */; };
+		E318B0D6BA1A051DD5CD3B6920326ED0 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E58703356AF72350A3EA03BBF5622DF4 /* MYImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C3B6DFA8A1126D92F95BDE1F9A8138 /* MYImagePickerViewController.m */; };
+		EA41CEA9E6D4D815C9A5CAFA78C39488 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
+		EC3845219505068D2AF502981FFF42F6 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
+		EF683CD16AB604997CDC294E5EF5351D /* MYAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E12034EBC51CCDE31DEAA65BE66549 /* MYAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F07734AB641789EA339A57F8391E94DA /* MYAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = C813889C8913AA1F8DA996944D620958 /* MYAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F20B127616C89D958E684E7668CEA2AE /* MYImagePickerSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D8473BCFFA6221B7EB1BF9E4CE9DA8AC /* MYImagePickerSegmentControl.m */; };
+		F22D96266CED1C121A3A78834EB5B4C8 /* MYImagePickerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 909E1968EA2247DE2EDB8132E49DC5F1 /* MYImagePickerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49E91C922D53A29DD3B68620827FFED /* MYImagePickerPreNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 94AC471D62BE71B759DD44715BA3F45A /* MYImagePickerPreNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86B76FC4DF63AECC1EABD602A4382D2 /* MYImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E57B78E08FD5AC5F7D415B7B81591 /* MYImagePicker-dummy.m */; };
+		F9AB779F2AAA272A88B716AACB199D51 /* UIView+MYImagePickerCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 103F40ACC6E9C8AAC5326D53702D92D7 /* UIView+MYImagePickerCrop.m */; };
+		FB1294996B02191615FE4CA9D458AEC5 /* MYImagePickerPhotoPreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C73779AC82F40B94DB1CB62A8F889017 /* MYImagePickerPhotoPreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBF07DF8BFC789B479C1D424252ABC40 /* MYImagePickerVideoPreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A3401F76F5D71A2FAE57C20DEA3307 /* MYImagePickerVideoPreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC524233BC46D1F549C7D9AD73A9FEC0 /* MYImagePickerManager+Authorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C64380850A67DB7BF3247024D97CC1 /* MYImagePickerManager+Authorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD860B7AE538E5A727C8524811F06225 /* MYImagePickerNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFC938D04EC5C021D3491F9EFCC5845 /* MYImagePickerNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE1606D63E49B1AB76C5D2A786C1550A /* MYAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = FA917B975C826E878563F36FCC2D5841 /* MYAsset.m */; };
+		FE97F31AD1559402400FE82E029BFA97 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D5460D6B633C9E4E8BF3A11D41F6463 /* PBXContainerItemProxy */ = {
+		168EB76EE56D3F6163C2239F1E5A7078 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -156,140 +160,144 @@
 		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		0738C48091EE45B37E28844200DD749C /* MYImagePickerAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAssetCell.m; sourceTree = "<group>"; };
 		07971C7F0CB662568BBEA3688D225187 /* Pods-MYImagePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYImagePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		07B2F6AFDD5A3584B9051FD39D14DE0C /* UIViewController+MYImagePickerHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MYImagePickerHUD.m"; sourceTree = "<group>"; };
-		095CF41D6452EA95E1A0E3ADD8D2B5D4 /* MYImagePickerAlbumCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAlbumCell.h; sourceTree = "<group>"; };
-		09B90BAFFD433D71C63ADF0FE2CBE3CC /* UIView+MYLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MYLayout.m"; sourceTree = "<group>"; };
-		0D1C692C0BD4DD9F60F242F18350F1B0 /* MYImagePickerManager+Observer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYImagePickerManager+Observer.m"; sourceTree = "<group>"; };
+		0AF382CAA7E187EA23749C703F9B46B8 /* MYImagePickerVideoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerVideoViewController.m; sourceTree = "<group>"; };
 		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		103F40ACC6E9C8AAC5326D53702D92D7 /* UIView+MYImagePickerCrop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MYImagePickerCrop.m"; sourceTree = "<group>"; };
+		10AA29804E75FC66A57672AA692A60F7 /* MYImagePickerManager+Observer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYImagePickerManager+Observer.m"; sourceTree = "<group>"; };
 		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		121B83156D0CB0231135325C9CC785C9 /* MYImagePickerManager+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYImagePickerManager+Helper.h"; sourceTree = "<group>"; };
 		12F13A594EC8AB84B7CD913D624FB2CA /* MYImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYImagePicker.modulemap; sourceTree = "<group>"; };
 		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		13EDB6D36F5B4BF50829596587E43323 /* MYImagePickerBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerBaseViewController.m; sourceTree = "<group>"; };
-		19221DC2D52513E72CAFD6A5A2EAA6F8 /* MYImagePickerBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerBaseViewController.h; sourceTree = "<group>"; };
-		1BC3863DCF28C63D934AC5E7601E6937 /* UIColor+MYImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MYImagePicker.m"; sourceTree = "<group>"; };
+		1590D19177F5FF34305CEB81BB606B78 /* MYImagePickerAssetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAssetViewController.h; sourceTree = "<group>"; };
 		1E055E3B6AD2AE5A7984BB1265F87216 /* MYImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MYImagePicker-Info.plist"; sourceTree = "<group>"; };
-		1E546AE48161C5A6D67F3DD273C41C91 /* MYAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYAsset.m; sourceTree = "<group>"; };
 		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2046443F1DB011AE09C449BD7A9D8DBF /* UIImage+MYBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MYBundle.m"; sourceTree = "<group>"; };
-		220910DE6D0E61EBB21541919BC38407 /* MYAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYAsset.h; sourceTree = "<group>"; };
-		2787CC5A8F40A8190661FE1563880792 /* MYImagePickerNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerNavigationBar.h; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F4F1FC5A4A59F7CCDC4F85EC301097 /* MYImagePickerManager+Queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYImagePickerManager+Queue.h"; sourceTree = "<group>"; };
+		26A3401F76F5D71A2FAE57C20DEA3307 /* MYImagePickerVideoPreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerVideoPreviewViewController.h; sourceTree = "<group>"; };
+		2833646AA611B07EF5AD01FEDB00D197 /* UIViewController+MYImagePickerHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MYImagePickerHUD.h"; sourceTree = "<group>"; };
+		2AC79BE4411DCAFBEC21BAF0A196C316 /* UIImage+MYBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MYBundle.m"; sourceTree = "<group>"; };
 		2C87868DB898CCFEB79D5A0C516727FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		310D2F9A3DBE98920A04FBB1AF8D3806 /* MYAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYAlbum.h; sourceTree = "<group>"; };
+		334B86839ACE88CAFAE7696C1CE22ACD /* MYImagePickerPreNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerPreNavigationBar.m; sourceTree = "<group>"; };
 		336CAB42BBCBEFB9FF668D28F994FE5E /* Pods-MYImagePicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYImagePicker_Example-Info.plist"; sourceTree = "<group>"; };
-		34B122DAA4D7A0A78597ABF15AC0A8F3 /* MYImagePickerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerManager.m; sourceTree = "<group>"; };
-		34D1733D34A06E2E829733F540BFFA1D /* UIView+MYLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MYLayout.h"; sourceTree = "<group>"; };
 		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		388313489C70691AE4DEE81DF061273E /* MYImagePickerManager+Queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYImagePickerManager+Queue.h"; sourceTree = "<group>"; };
 		390650D5F0FCD06C46554CAFF3FB9A63 /* MYImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		3A17CCCB335D4E411EFD44D0F4841F55 /* UIView+MYLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MYLayout.m"; sourceTree = "<group>"; };
+		3AE4C0315BB5151982FA0974F30C287B /* MYImagePickerManager+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYImagePickerManager+Helper.m"; sourceTree = "<group>"; };
 		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		4395B042D66A870CD2303317EA86B7EF /* MYImagePickerAlbumView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAlbumView.h; sourceTree = "<group>"; };
-		43DBB92239C5162E3B0069AC5FA0C4A6 /* MYImagePickerAuthorizationTipsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAuthorizationTipsView.h; sourceTree = "<group>"; };
+		3D1285337A0ADD3CBB8495BE7FAF49F7 /* MYImagePickerAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAssetCell.h; sourceTree = "<group>"; };
+		3E6C885E47BBCF91BAC6700A582A5F44 /* MYImagePickerManager+Queue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYImagePickerManager+Queue.m"; sourceTree = "<group>"; };
+		3EC9A41134542C02B3D0AC717378B940 /* MYImagePickerManager+Authorization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYImagePickerManager+Authorization.m"; sourceTree = "<group>"; };
+		3FFC938D04EC5C021D3491F9EFCC5845 /* MYImagePickerNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerNavigationBar.h; sourceTree = "<group>"; };
+		42E64CF3A32788CDCDA23F2583B3D96A /* MYImagePickerProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerProgressHUD.m; sourceTree = "<group>"; };
+		43C64380850A67DB7BF3247024D97CC1 /* MYImagePickerManager+Authorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYImagePickerManager+Authorization.h"; sourceTree = "<group>"; };
 		442E2090D41257DEFB1ED2D0EC9DE2BD /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DBF34B0A3F655207AE1F59E9D8FE1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		450BCF1B620F75F3A7CF3FCADB1AC06E /* MYAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYAlbum.m; sourceTree = "<group>"; };
-		4A4C420C940E545F74AA8C32E38F7113 /* MYImagePickerNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerNavigationController.m; sourceTree = "<group>"; };
-		4DE6B31487D2C28E976C6E5A75D64D24 /* MYImagePickerAssetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAssetViewController.m; sourceTree = "<group>"; };
+		47AEE3792349CE9E0E82605991785ED2 /* MYImageFetchOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImageFetchOperation.h; sourceTree = "<group>"; };
+		48F5DFC4D8775E8B41F101CB2F1FDA50 /* MYImagePickerAssetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAssetViewController.m; sourceTree = "<group>"; };
+		490E64AD88CB32901DA5E07146C252CE /* MYImagePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerViewController.h; sourceTree = "<group>"; };
 		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		4FEB534A47C33D5C061327B8A1CB9490 /* MYImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MYImagePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		51F4BD13CDB172D0A6DEEFCA76BB353C /* MYImagePickerAssetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAssetViewController.h; sourceTree = "<group>"; };
-		5243AC0AF788661BC49B375152982109 /* MYImagePickerAlbumCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAlbumCell.m; sourceTree = "<group>"; };
+		4FEB534A47C33D5C061327B8A1CB9490 /* MYImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MYImagePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		527E57B78E08FD5AC5F7D415B7B81591 /* MYImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYImagePicker-dummy.m"; sourceTree = "<group>"; };
-		52918F85BC535D0DA63C689F6C65F72F /* MYImagePickerAssetLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAssetLayout.h; sourceTree = "<group>"; };
 		56A617F7B0E8A26130A24FDB0E5C3334 /* MYImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MYImagePicker.m; path = MYImagePicker/Classes/MYImagePicker.m; sourceTree = "<group>"; };
-		5850723FD2EC033B414AB454C5B86775 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5B35F66B687748FC5EE08B436231B6A1 /* MYImagePickerAssetPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAssetPreviewCell.m; sourceTree = "<group>"; };
-		5CA5D590A5B2A69F0CAA07C741F9B8E6 /* MYImagePickerPreNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerPreNavigationBar.m; sourceTree = "<group>"; };
-		5CD37266F981E4C14709E3A13FFD4179 /* MYImagePickerPhotoPreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerPhotoPreviewViewController.h; sourceTree = "<group>"; };
-		5CEE963931991E274E646DD807E4BA49 /* UIViewController+MYImagePickerHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MYImagePickerHUD.h"; sourceTree = "<group>"; };
-		5E7AB26036A714E77135F3CBD1576081 /* MYImagePickerAlbumView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAlbumView.m; sourceTree = "<group>"; };
+		5850723FD2EC033B414AB454C5B86775 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5AA700C5CE659A1B9121D51D743BCA0E /* MYImagePickerAlbumView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAlbumView.h; sourceTree = "<group>"; };
+		5CB67FB265FEE561F4B787A8672D561F /* MYImagePickerVideoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerVideoLayout.h; sourceTree = "<group>"; };
 		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		60E3D1803BD6782F777B8F08A068EB0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		60864496DC81BAAA1781960AFCC391BC /* MYImagePickerCropManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerCropManager.m; sourceTree = "<group>"; };
+		60E3D1803BD6782F777B8F08A068EB0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		625FC8565F325807FF050A0DA84908C0 /* Pods-MYImagePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYImagePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		64D71C4C030EF84E10C16D593D00A063 /* MYImagePickerProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerProgressHUD.h; sourceTree = "<group>"; };
-		651AA28A741FB40ECCBC93E0BA767E7E /* MYImagePickerVideoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerVideoViewController.h; sourceTree = "<group>"; };
-		65843DC26AFDEDE047D77960096012F5 /* MYImagePickerVideoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerVideoCell.m; sourceTree = "<group>"; };
+		67E12034EBC51CCDE31DEAA65BE66549 /* MYAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYAlbum.h; sourceTree = "<group>"; };
 		681014E020EDD9564D66380C1242FFB6 /* Pods-MYImagePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYImagePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		68853151DA6EF60340D0F66B0C6B1EDC /* MYImagePickerNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerNavigationBar.m; sourceTree = "<group>"; };
 		695C6422C43B6B87F817A3610D8E99D5 /* Pods-MYImagePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYImagePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6B62EC72C5FEBEE100D804FC54EFAF0F /* MYImagePickerVideoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerVideoCell.m; sourceTree = "<group>"; };
 		6C12EB197D99B87343FAD5AE381A053C /* Pods-MYImagePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYImagePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		6C4B93620AAB9D641672D4B59A2639B3 /* UIColor+MYImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MYImagePicker.m"; sourceTree = "<group>"; };
 		6EE9C1631C2EDFC11BCB52757AD945C6 /* MYImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MYImagePicker.h; path = MYImagePicker/Classes/MYImagePicker.h; sourceTree = "<group>"; };
-		6F31A295B09207C81C9B8BD5D8C17305 /* MYImagePickerPhotoPreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerPhotoPreviewViewController.m; sourceTree = "<group>"; };
+		6FB7D3D6BE10B4A9E71D91CDB486DE62 /* UIView+MYImagePickerCrop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MYImagePickerCrop.h"; sourceTree = "<group>"; };
 		7141030A6ACCBAF5C4886BD2E6E1CABA /* MYImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYImagePicker.xcconfig; sourceTree = "<group>"; };
 		72749C262532EED9CD88ADAAB17007E7 /* Pods-MYImagePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYImagePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		72CEB626A0D65FE7B24C4C4993C05389 /* MYImagePickerVideoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerVideoViewController.h; sourceTree = "<group>"; };
 		74D96B7C7F100DCBC264AD9F3911EB79 /* Pods-MYImagePicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYImagePicker_Tests-Info.plist"; sourceTree = "<group>"; };
-		74EB65DA9AC6CCDFB56741153858D354 /* MYImagePickerSegmentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerSegmentControl.h; sourceTree = "<group>"; };
-		76A2CA57EE86B5CC571256984AEE8DA1 /* MYImagePickerVideoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerVideoViewController.m; sourceTree = "<group>"; };
-		79A5C6DB0F38688F091FC39DC80EA534 /* MYImagePickerDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerDefine.h; sourceTree = "<group>"; };
-		81FD5582045A90C686A1DC0EACEFA5ED /* MYImagePickerSegmentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerSegmentControl.m; sourceTree = "<group>"; };
+		834A796DA198EDDBA02CBA7B27858FD9 /* MYImagePickerBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerBaseViewController.m; sourceTree = "<group>"; };
+		860BBE1682ED026052752C476E1A3563 /* MYImagePickerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerManager.m; sourceTree = "<group>"; };
 		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		8A254CC3C792BB712A7B578EC6E1D481 /* UIViewController+MYImagePickerHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MYImagePickerHUD.m"; sourceTree = "<group>"; };
 		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		90D2F94F7EF8BD62155DEA55950A9441 /* UIImage+MYBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+MYBundle.h"; sourceTree = "<group>"; };
+		909E1968EA2247DE2EDB8132E49DC5F1 /* MYImagePickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerManager.h; sourceTree = "<group>"; };
 		91DF38B90E1A66A9E6F9B8562FCAE189 /* Pods-MYImagePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYImagePicker_Example.modulemap"; sourceTree = "<group>"; };
-		9810882FDD5D7EF71CB79F23DD9AF228 /* MYImagePickerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerConfig.h; sourceTree = "<group>"; };
-		9AE01919D8C85EC56D28D17C30EAB0FF /* MYImagePickerVideoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerVideoLayout.h; sourceTree = "<group>"; };
+		92B844F8120715367B9985DEE3277A2B /* MYImagePickerAlbumCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAlbumCell.h; sourceTree = "<group>"; };
+		93D631936D03F65A4B9D28D2CF2BCE4C /* MYImagePickerAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAssetCell.m; sourceTree = "<group>"; };
+		946BD86D5A851E33B5E2F82FDE812F7B /* MYImagePickerAuthorizationTipsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAuthorizationTipsView.m; sourceTree = "<group>"; };
+		947AB206C71210035557318B2A73E737 /* MYImagePickerCropManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerCropManager.h; sourceTree = "<group>"; };
+		949A8C394B0E78815BCDD4571AD67711 /* UIColor+MYImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+MYImagePicker.h"; sourceTree = "<group>"; };
+		94AC471D62BE71B759DD44715BA3F45A /* MYImagePickerPreNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerPreNavigationBar.h; sourceTree = "<group>"; };
+		9A51E7DFA8B2E8ED9B6DE4BBEB0DCDE8 /* MYImagePickerProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerProgressHUD.h; sourceTree = "<group>"; };
+		9A6D0FAEB90BF944B7E7BB1699CDDC3A /* MYImagePickerAssetLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAssetLayout.m; sourceTree = "<group>"; };
 		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9C98D351AA38013ED60803CC577A2297 /* MYImagePickerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerConfig.m; sourceTree = "<group>"; };
 		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A08322CD04C721230BF43EFE543304CA /* MYImagePickerVideoPreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerVideoPreviewViewController.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0863FBD699329735E7ADE2B4C65512 /* MYImagePickerMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerMacro.h; sourceTree = "<group>"; };
 		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		A3BE81B2F8FC8D197510AAAFAB4571E1 /* MYImagePickerNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerNavigationBar.m; sourceTree = "<group>"; };
-		A5FEFFAE3FF13387DC7E76074447534A /* MYImagePickerManager+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYImagePickerManager+Helper.m"; sourceTree = "<group>"; };
-		A84CCBCC3848372AAD0E30B05984B23D /* Pods_MYImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYImagePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8F5C4550A1C191643B7AED895B75406 /* MYImagePickerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerConfig.m; sourceTree = "<group>"; };
-		AADA86F50F8735C280D81B0DE783CFE2 /* MYImagePickerManager+Queue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYImagePickerManager+Queue.m"; sourceTree = "<group>"; };
-		AC1E165E5EF73642CAF58DC4D7F5BE9F /* MYImagePickerVideoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerVideoLayout.m; sourceTree = "<group>"; };
+		A3E5A7675EFD2F6199801A2BA9DB0B3E /* MYImagePickerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerConfig.h; sourceTree = "<group>"; };
+		A644AB94CDE08CD876B34FC95979344C /* MYImagePickerManager+Observer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYImagePickerManager+Observer.h"; sourceTree = "<group>"; };
+		A68AA260CCBEF7714C237499EB544203 /* MYImagePickerAssetPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAssetPreviewCell.m; sourceTree = "<group>"; };
+		A84CCBCC3848372AAD0E30B05984B23D /* Pods_MYImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYImagePicker_Example.framework; path = "Pods-MYImagePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		ADD37931E5A4964E3AB4A7F4BAAEE3C0 /* MYImagePickerNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerNavigationController.m; sourceTree = "<group>"; };
 		B04CB282D248225B8B8C6F751929CA82 /* Pods-MYImagePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYImagePicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		B1517E3885990AA880CE96DCE874345B /* MYImagePickerPreNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerPreNavigationBar.h; sourceTree = "<group>"; };
-		B2E14E63902458CCA6003B58B089A649 /* UIColor+MYImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+MYImagePicker.h"; sourceTree = "<group>"; };
 		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		B5D568BF0801C89AA0243EF80C3063CE /* UIView+MYLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MYLayout.h"; sourceTree = "<group>"; };
+		B70AE1604227C07329C3E7B7FA4B63D9 /* MYImagePickerBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerBaseViewController.h; sourceTree = "<group>"; };
 		B83244B6632B1EF5282D4EE65FA62947 /* Pods-MYImagePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYImagePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B83DFB46E09960E1FA117FB9D06EE166 /* MYImagePickerProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerProgressView.m; sourceTree = "<group>"; };
-		B8DC24A24FA3A8E13721721EE26D7CF6 /* MYImagePickerAuthorizationTipsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAuthorizationTipsView.m; sourceTree = "<group>"; };
+		B93A9A33A3CE637BB394974559F113DC /* UIImage+MYBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+MYBundle.h"; sourceTree = "<group>"; };
+		BB5A62E673C8F5FD4440A9B10E509102 /* MYImagePickerAuthorizationTipsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAuthorizationTipsView.h; sourceTree = "<group>"; };
+		BC7F000EE0302BDD25CB029BE5380178 /* MYImagePickerSegmentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerSegmentControl.h; sourceTree = "<group>"; };
+		C0BD0F9A31826AAE2E87EF138C7B6D95 /* MYImagePickerManager+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYImagePickerManager+Helper.h"; sourceTree = "<group>"; };
 		C1E0EFE49AFE88E57320B5E9CB0E206E /* MYImagePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MYImagePicker.bundle; path = MYImagePicker/Resource/MYImagePicker.bundle; sourceTree = "<group>"; };
-		C2562451BCAB3D91AA954803F6B1CECC /* MYImagePickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerViewController.m; sourceTree = "<group>"; };
 		C2B0671DD04753489569A8C0FE32CFB8 /* Pods-MYImagePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYImagePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C466DBFC8B4E423D94353BB6168A91A5 /* MYImagePickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerManager.h; sourceTree = "<group>"; };
-		C69E2C24953DCBD35D928DCDBBF788C8 /* MYImagePickerVideoPreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerVideoPreviewViewController.h; sourceTree = "<group>"; };
 		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		CAB0F1CAF13BC734B0BCC8082156050D /* MYImageFetchOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImageFetchOperation.m; sourceTree = "<group>"; };
-		CEEE1490C51FF58F7DB21860736446FA /* MYImageFetchOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImageFetchOperation.h; sourceTree = "<group>"; };
+		C73779AC82F40B94DB1CB62A8F889017 /* MYImagePickerPhotoPreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerPhotoPreviewViewController.h; sourceTree = "<group>"; };
+		C737AC0A5CCFE8FAACA09AE9C03106D6 /* MYImagePickerVideoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerVideoCell.h; sourceTree = "<group>"; };
+		C813889C8913AA1F8DA996944D620958 /* MYAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYAsset.h; sourceTree = "<group>"; };
+		C81E2C6D9F739D5EE3004D093466A977 /* MYImagePickerProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerProgressView.m; sourceTree = "<group>"; };
+		C9E073832533ECF26EBDE70065031CFB /* MYImagePickerAssetPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAssetPreviewCell.h; sourceTree = "<group>"; };
+		CADDAB664276F1DFE20699166D262F5E /* MYImagePickerProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerProgressView.h; sourceTree = "<group>"; };
+		CBAEB8D0D1E56F7F8E8A928D4296AB41 /* MYImagePickerDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerDefine.h; sourceTree = "<group>"; };
+		CD21DF5B7A5A91AA134C7F6042C9DA2C /* MYImagePickerAssetLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAssetLayout.h; sourceTree = "<group>"; };
 		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		D2B98B353F237C861C7B104D8D477C03 /* MYImagePickerNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerNavigationController.h; sourceTree = "<group>"; };
-		D63E4B7B2D01C6F4DDA6CB466B67442E /* MYImagePickerMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerMacro.h; sourceTree = "<group>"; };
-		D772CF59BA4CFBB3470001DE8990CB34 /* MYImagePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerViewController.h; sourceTree = "<group>"; };
+		D4A9642A341CA4185F67EB08FFF4EE8C /* MYImagePickerNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerNavigationController.h; sourceTree = "<group>"; };
+		D7C3B6DFA8A1126D92F95BDE1F9A8138 /* MYImagePickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerViewController.m; sourceTree = "<group>"; };
+		D8473BCFFA6221B7EB1BF9E4CE9DA8AC /* MYImagePickerSegmentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerSegmentControl.m; sourceTree = "<group>"; };
 		DA24BB9D706D3F822ADA9FD6084D7176 /* Pods-MYImagePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYImagePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB207CA9FE859B11C099295A0AD07C77 /* MYImagePickerProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerProgressHUD.m; sourceTree = "<group>"; };
-		DE5FCF4AD05D79792E77F45F9396CFE5 /* MYImagePickerAssetPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAssetPreviewCell.h; sourceTree = "<group>"; };
 		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		DF91B794A7B679D667CF4E047903A9CA /* MYImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E102CF48C34B0286ACE938DA1349957F /* MYImagePickerProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerProgressView.h; sourceTree = "<group>"; };
+		DF91B794A7B679D667CF4E047903A9CA /* MYImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MYImagePicker.framework; path = MYImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CC01DC8EA38420358B212E9357385B /* MYImagePickerPhotoPreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerPhotoPreviewViewController.m; sourceTree = "<group>"; };
+		E3DD84F96799F7D9A7ECAA92FEE3122A /* MYImageFetchOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImageFetchOperation.m; sourceTree = "<group>"; };
 		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		E5A9E3A0210BD55B4722268258A83C1D /* MYImagePickerVideoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerVideoCell.h; sourceTree = "<group>"; };
 		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		E6EE4CA13043FD05C436D03702D56ACD /* Pods-MYImagePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYImagePicker_Tests.modulemap"; sourceTree = "<group>"; };
 		E74CC8CA73111728DC9519A6AF2A7E3D /* Pods-MYImagePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYImagePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E85A753F4074A7F333051FC8C0843F13 /* MYImagePickerManager+Observer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYImagePickerManager+Observer.h"; sourceTree = "<group>"; };
+		E98DC2705B3743DD57E9AF8E3F1A066E /* MYImagePickerAlbumView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAlbumView.m; sourceTree = "<group>"; };
 		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		F1FA891F1EEDA4E78EAEC0330FC64E1E /* MYImagePickerManager+Authorization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYImagePickerManager+Authorization.m"; sourceTree = "<group>"; };
 		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		F6124546AC8620BBFD35400EFE2FE1E6 /* MYImagePickerAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYImagePickerAssetCell.h; sourceTree = "<group>"; };
-		F683E1E394FB688D4861A81F169EC9D6 /* Pods_MYImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYImagePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CACE50180BBDA981A49A8787F98B39 /* MYImagePickerAlbumCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAlbumCell.m; sourceTree = "<group>"; };
+		F545047350B07128A6C8427EC44D4CFC /* MYAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYAlbum.m; sourceTree = "<group>"; };
+		F683E1E394FB688D4861A81F169EC9D6 /* Pods_MYImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYImagePicker_Tests.framework; path = "Pods-MYImagePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F768E00B02C9497FCA13FB7769B18BFF /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		F8AB337F94FABCB6D160952D29C1A88F /* MYImagePickerAssetLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerAssetLayout.m; sourceTree = "<group>"; };
+		F81BBD0DC09E35656B9CFB5414466271 /* MYImagePickerVideoPreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerVideoPreviewViewController.m; sourceTree = "<group>"; };
 		F9A0F058777160D440B98D53FC22A817 /* Pods-MYImagePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYImagePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F9C1AA670885E699145E5254E7CF2275 /* MYImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		FA343D433AE654B5FF2B4064EDC213B5 /* MYImagePickerVideoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYImagePickerVideoLayout.m; sourceTree = "<group>"; };
+		FA917B975C826E878563F36FCC2D5841 /* MYAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYAsset.m; sourceTree = "<group>"; };
 		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		FF68097ABCE4E60D269AAE28E2CDAD7A /* Pods-MYImagePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYImagePicker_Example-dummy.m"; sourceTree = "<group>"; };
-		FF68A932FF0AF955FB6A4FE9A54C358E /* MYImagePickerManager+Authorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYImagePickerManager+Authorization.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,15 +309,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0340454DD4837C76F7CE957E6720A056 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B77765ED60BF0C8CB55472A498F82BE7 /* Foundation.framework in Frameworks */,
-				9EDA03B3E5AA12878C657AC26F05F919 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BC7FE8CFF66CDABCC256440D63477CD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,29 +317,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D442E6E9172C761F5331E05C674FD0D8 /* Frameworks */ = {
+		D2A4D5B6B476F328A0E917B66A604FC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A19FAC2962A09D19068400C1731139CD /* Foundation.framework in Frameworks */,
-				9124317FB96792DF012F8A8DD1D762F5 /* Masonry.framework in Frameworks */,
-				DD9AEA7D1041C840353BF491D66C524C /* Photos.framework in Frameworks */,
-				E5739F13FDDB0C7B9DE4A5150FDEAB36 /* UIKit.framework in Frameworks */,
+				2C2ABAB466A8FFC4BE9E665D79DBA6CA /* Foundation.framework in Frameworks */,
+				B352B08BBAFE0883FEF72E52C67AEDBE /* Masonry.framework in Frameworks */,
+				E15B750F2AE0E26CD06889AE96974472 /* Photos.framework in Frameworks */,
+				79FC0E5D7304B7FAD56E8B6BADC01DEB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56643477E39CE2FE451D4DAC9E83EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F61E3E3289EC3FBF76F772E17040CE6 /* Foundation.framework in Frameworks */,
+				DF011E74951DC111741D678CDFE170BF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0705EE937DDAC095485411979ADE6138 /* Asset */ = {
+		07095D49ADC24A0674B167C2A64E4B85 /* ImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				F6124546AC8620BBFD35400EFE2FE1E6 /* MYImagePickerAssetCell.h */,
-				0738C48091EE45B37E28844200DD749C /* MYImagePickerAssetCell.m */,
-				51F4BD13CDB172D0A6DEEFCA76BB353C /* MYImagePickerAssetViewController.h */,
-				4DE6B31487D2C28E976C6E5A75D64D24 /* MYImagePickerAssetViewController.m */,
+				ECA6849AF15D0ADF433BE5E9176CDADD /* View */,
+				966FDE232D2D6B28C52C3EC77F37217E /* ViewController */,
 			);
-			path = Asset;
+			name = ImageBrowser;
+			path = ImageBrowser;
 			sourceTree = "<group>";
 		};
 		092A7E57E7873AA2FD79D11892ED10FE /* Pods-MYImagePicker_Example */ = {
@@ -370,6 +377,16 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		126D3DFB4BF1FAB63D17629052FD874E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A3E5A7675EFD2F6199801A2BA9DB0B3E /* MYImagePickerConfig.h */,
+				9C98D351AA38013ED60803CC577A2297 /* MYImagePickerConfig.m */,
+			);
+			name = Config;
+			path = Config;
+			sourceTree = "<group>";
+		};
 		14C213F9795AC0249B89027BE3C74067 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,37 +401,52 @@
 			path = "Example/Pods/Target Support Files/MYImagePicker";
 			sourceTree = "<group>";
 		};
-		18D504842166E6CE83FEEA46F1C9ECDA /* ViewController */ = {
+		161FE5C7AAD5569F1B2432764DE5B94D /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				D772CF59BA4CFBB3470001DE8990CB34 /* MYImagePickerViewController.h */,
-				C2562451BCAB3D91AA954803F6B1CECC /* MYImagePickerViewController.m */,
+				B70AE1604227C07329C3E7B7FA4B63D9 /* MYImagePickerBaseViewController.h */,
+				834A796DA198EDDBA02CBA7B27858FD9 /* MYImagePickerBaseViewController.m */,
+				D4A9642A341CA4185F67EB08FFF4EE8C /* MYImagePickerNavigationController.h */,
+				ADD37931E5A4964E3AB4A7F4BAAEE3C0 /* MYImagePickerNavigationController.m */,
+				CADDAB664276F1DFE20699166D262F5E /* MYImagePickerProgressView.h */,
+				C81E2C6D9F739D5EE3004D093466A977 /* MYImagePickerProgressView.m */,
 			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		3489073DAB1CA369E34406EBBA97281D /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				E5A9E3A0210BD55B4722268258A83C1D /* MYImagePickerVideoCell.h */,
-				65843DC26AFDEDE047D77960096012F5 /* MYImagePickerVideoCell.m */,
-				651AA28A741FB40ECCBC93E0BA767E7E /* MYImagePickerVideoViewController.h */,
-				76A2CA57EE86B5CC571256984AEE8DA1 /* MYImagePickerVideoViewController.m */,
-			);
-			path = Video;
-			sourceTree = "<group>";
-		};
-		3E82FBAF527F78F2E0DBC461257D12FF /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				19221DC2D52513E72CAFD6A5A2EAA6F8 /* MYImagePickerBaseViewController.h */,
-				13EDB6D36F5B4BF50829596587E43323 /* MYImagePickerBaseViewController.m */,
-				D2B98B353F237C861C7B104D8D477C03 /* MYImagePickerNavigationController.h */,
-				4A4C420C940E545F74AA8C32E38F7113 /* MYImagePickerNavigationController.m */,
-				E102CF48C34B0286ACE938DA1349957F /* MYImagePickerProgressView.h */,
-				B83DFB46E09960E1FA117FB9D06EE166 /* MYImagePickerProgressView.m */,
-			);
+			name = Base;
 			path = Base;
+			sourceTree = "<group>";
+		};
+		316FCE6B7D63C43EC311FD07F7AFD1B6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CBAEB8D0D1E56F7F8E8A928D4296AB41 /* MYImagePickerDefine.h */,
+				9F0863FBD699329735E7ADE2B4C65512 /* MYImagePickerMacro.h */,
+				9A51E7DFA8B2E8ED9B6DE4BBEB0DCDE8 /* MYImagePickerProgressHUD.h */,
+				42E64CF3A32788CDCDA23F2583B3D96A /* MYImagePickerProgressHUD.m */,
+				949A8C394B0E78815BCDD4571AD67711 /* UIColor+MYImagePicker.h */,
+				6C4B93620AAB9D641672D4B59A2639B3 /* UIColor+MYImagePicker.m */,
+				B93A9A33A3CE637BB394974559F113DC /* UIImage+MYBundle.h */,
+				2AC79BE4411DCAFBEC21BAF0A196C316 /* UIImage+MYBundle.m */,
+				6FB7D3D6BE10B4A9E71D91CDB486DE62 /* UIView+MYImagePickerCrop.h */,
+				103F40ACC6E9C8AAC5326D53702D92D7 /* UIView+MYImagePickerCrop.m */,
+				B5D568BF0801C89AA0243EF80C3063CE /* UIView+MYLayout.h */,
+				3A17CCCB335D4E411EFD44D0F4841F55 /* UIView+MYLayout.m */,
+				2833646AA611B07EF5AD01FEDB00D197 /* UIViewController+MYImagePickerHUD.h */,
+				8A254CC3C792BB712A7B578EC6E1D481 /* UIViewController+MYImagePickerHUD.m */,
+			);
+			name = Support;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		31DAB9C6984B473D0D99D08725102AB8 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				C737AC0A5CCFE8FAACA09AE9C03106D6 /* MYImagePickerVideoCell.h */,
+				6B62EC72C5FEBEE100D804FC54EFAF0F /* MYImagePickerVideoCell.m */,
+				72CEB626A0D65FE7B24C4C4993C05389 /* MYImagePickerVideoViewController.h */,
+				0AF382CAA7E187EA23749C703F9B46B8 /* MYImagePickerVideoViewController.m */,
+			);
+			name = Video;
+			path = Video;
 			sourceTree = "<group>";
 		};
 		454637A112E9853306645B4F8E0A8396 /* MYImagePicker */ = {
@@ -422,8 +454,8 @@
 			children = (
 				6EE9C1631C2EDFC11BCB52757AD945C6 /* MYImagePicker.h */,
 				56A617F7B0E8A26130A24FDB0E5C3334 /* MYImagePicker.m */,
-				D0EB680B154D829442156282E1E1547B /* Core */,
-				72C83BC9CE7369C8B4326452BCF0C5B2 /* Feature */,
+				B610047B8CDA9E901BABA3324C2B564B /* Core */,
+				B248A66505858901D803E71D36298F78 /* Feature */,
 				11DD0F6BE05060301FF5C482A23A4EE2 /* Pod */,
 				869CEE8420359CB246104917D0B1F4FB /* Resources */,
 				14C213F9795AC0249B89027BE3C74067 /* Support Files */,
@@ -432,32 +464,16 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		4BFDFDD1F565B5B5876FBB807F635C69 /* Config */ = {
+		5DB2FAE2EE8B7EE2D548F3C0F235520C /* Asset */ = {
 			isa = PBXGroup;
 			children = (
-				9810882FDD5D7EF71CB79F23DD9AF228 /* MYImagePickerConfig.h */,
-				A8F5C4550A1C191643B7AED895B75406 /* MYImagePickerConfig.m */,
+				3D1285337A0ADD3CBB8495BE7FAF49F7 /* MYImagePickerAssetCell.h */,
+				93D631936D03F65A4B9D28D2CF2BCE4C /* MYImagePickerAssetCell.m */,
+				1590D19177F5FF34305CEB81BB606B78 /* MYImagePickerAssetViewController.h */,
+				48F5DFC4D8775E8B41F101CB2F1FDA50 /* MYImagePickerAssetViewController.m */,
 			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		5F1D2BF5E08806C77458D8A6B588A1AA /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				79A5C6DB0F38688F091FC39DC80EA534 /* MYImagePickerDefine.h */,
-				D63E4B7B2D01C6F4DDA6CB466B67442E /* MYImagePickerMacro.h */,
-				64D71C4C030EF84E10C16D593D00A063 /* MYImagePickerProgressHUD.h */,
-				DB207CA9FE859B11C099295A0AD07C77 /* MYImagePickerProgressHUD.m */,
-				B2E14E63902458CCA6003B58B089A649 /* UIColor+MYImagePicker.h */,
-				1BC3863DCF28C63D934AC5E7601E6937 /* UIColor+MYImagePicker.m */,
-				90D2F94F7EF8BD62155DEA55950A9441 /* UIImage+MYBundle.h */,
-				2046443F1DB011AE09C449BD7A9D8DBF /* UIImage+MYBundle.m */,
-				34D1733D34A06E2E829733F540BFFA1D /* UIView+MYLayout.h */,
-				09B90BAFFD433D71C63ADF0FE2CBE3CC /* UIView+MYLayout.m */,
-				5CEE963931991E274E646DD807E4BA49 /* UIViewController+MYImagePickerHUD.h */,
-				07B2F6AFDD5A3584B9051FD39D14DE0C /* UIViewController+MYImagePickerHUD.m */,
-			);
-			path = Support;
+			name = Asset;
+			path = Asset;
 			sourceTree = "<group>";
 		};
 		5FE596136D890553EE96E63795579C52 /* Development Pods */ = {
@@ -498,6 +514,7 @@
 				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
 				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -517,34 +534,12 @@
 			path = "Target Support Files/Pods-MYImagePicker_Tests";
 			sourceTree = "<group>";
 		};
-		72C83BC9CE7369C8B4326452BCF0C5B2 /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-				9E3A7248B18AEFD8742B0957B7C0B030 /* ImageBrowser */,
-				A8608C8EEC6EB3A0A690955FB706BEF0 /* ImagePicker */,
-				5F1D2BF5E08806C77458D8A6B588A1AA /* Support */,
-			);
-			name = Feature;
-			path = MYImagePicker/Classes/Feature;
-			sourceTree = "<group>";
-		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				641727D7EBF7D099C436C5885417E360 /* Masonry */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		7B08E2BB19694AB74DD50374E5C4681B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				DE5FCF4AD05D79792E77F45F9396CFE5 /* MYImagePickerAssetPreviewCell.h */,
-				5B35F66B687748FC5EE08B436231B6A1 /* MYImagePickerAssetPreviewCell.m */,
-				B1517E3885990AA880CE96DCE874345B /* MYImagePickerPreNavigationBar.h */,
-				5CA5D590A5B2A69F0CAA07C741F9B8E6 /* MYImagePickerPreNavigationBar.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		7B44D3499ECB16495643CFE8844F3880 /* Frameworks */ = {
@@ -556,45 +551,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7D2D2FD07275FBDAB33843A4F10619C8 /* Manager */ = {
+		8181058457E80B25E7B44394DECFFA50 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				CEEE1490C51FF58F7DB21860736446FA /* MYImageFetchOperation.h */,
-				CAB0F1CAF13BC734B0BCC8082156050D /* MYImageFetchOperation.m */,
-				C466DBFC8B4E423D94353BB6168A91A5 /* MYImagePickerManager.h */,
-				34B122DAA4D7A0A78597ABF15AC0A8F3 /* MYImagePickerManager.m */,
-				FF68A932FF0AF955FB6A4FE9A54C358E /* MYImagePickerManager+Authorization.h */,
-				F1FA891F1EEDA4E78EAEC0330FC64E1E /* MYImagePickerManager+Authorization.m */,
-				121B83156D0CB0231135325C9CC785C9 /* MYImagePickerManager+Helper.h */,
-				A5FEFFAE3FF13387DC7E76074447534A /* MYImagePickerManager+Helper.m */,
-				E85A753F4074A7F333051FC8C0843F13 /* MYImagePickerManager+Observer.h */,
-				0D1C692C0BD4DD9F60F242F18350F1B0 /* MYImagePickerManager+Observer.m */,
-				388313489C70691AE4DEE81DF061273E /* MYImagePickerManager+Queue.h */,
-				AADA86F50F8735C280D81B0DE783CFE2 /* MYImagePickerManager+Queue.m */,
+				47AEE3792349CE9E0E82605991785ED2 /* MYImageFetchOperation.h */,
+				E3DD84F96799F7D9A7ECAA92FEE3122A /* MYImageFetchOperation.m */,
+				947AB206C71210035557318B2A73E737 /* MYImagePickerCropManager.h */,
+				60864496DC81BAAA1781960AFCC391BC /* MYImagePickerCropManager.m */,
+				909E1968EA2247DE2EDB8132E49DC5F1 /* MYImagePickerManager.h */,
+				860BBE1682ED026052752C476E1A3563 /* MYImagePickerManager.m */,
+				43C64380850A67DB7BF3247024D97CC1 /* MYImagePickerManager+Authorization.h */,
+				3EC9A41134542C02B3D0AC717378B940 /* MYImagePickerManager+Authorization.m */,
+				C0BD0F9A31826AAE2E87EF138C7B6D95 /* MYImagePickerManager+Helper.h */,
+				3AE4C0315BB5151982FA0974F30C287B /* MYImagePickerManager+Helper.m */,
+				A644AB94CDE08CD876B34FC95979344C /* MYImagePickerManager+Observer.h */,
+				10AA29804E75FC66A57672AA692A60F7 /* MYImagePickerManager+Observer.m */,
+				24F4F1FC5A4A59F7CCDC4F85EC301097 /* MYImagePickerManager+Queue.h */,
+				3E6C885E47BBCF91BAC6700A582A5F44 /* MYImagePickerManager+Queue.m */,
 			);
+			name = Manager;
 			path = Manager;
-			sourceTree = "<group>";
-		};
-		81D8966E7240B281627D4BAB288359E8 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				5CD37266F981E4C14709E3A13FFD4179 /* MYImagePickerPhotoPreviewViewController.h */,
-				6F31A295B09207C81C9B8BD5D8C17305 /* MYImagePickerPhotoPreviewViewController.m */,
-				C69E2C24953DCBD35D928DCDBBF788C8 /* MYImagePickerVideoPreviewViewController.h */,
-				A08322CD04C721230BF43EFE543304CA /* MYImagePickerVideoPreviewViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		865461A892DBFEAE07B51FF30EE8E8C0 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				310D2F9A3DBE98920A04FBB1AF8D3806 /* MYAlbum.h */,
-				450BCF1B620F75F3A7CF3FCADB1AC06E /* MYAlbum.m */,
-				220910DE6D0E61EBB21541919BC38407 /* MYAsset.h */,
-				1E546AE48161C5A6D67F3DD273C41C91 /* MYAsset.m */,
-			);
-			path = Entity;
 			sourceTree = "<group>";
 		};
 		869CEE8420359CB246104917D0B1F4FB /* Resources */ = {
@@ -626,54 +602,70 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E3A7248B18AEFD8742B0957B7C0B030 /* ImageBrowser */ = {
+		966FDE232D2D6B28C52C3EC77F37217E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7B08E2BB19694AB74DD50374E5C4681B /* View */,
-				81D8966E7240B281627D4BAB288359E8 /* ViewController */,
+				C73779AC82F40B94DB1CB62A8F889017 /* MYImagePickerPhotoPreviewViewController.h */,
+				E2CC01DC8EA38420358B212E9357385B /* MYImagePickerPhotoPreviewViewController.m */,
+				26A3401F76F5D71A2FAE57C20DEA3307 /* MYImagePickerVideoPreviewViewController.h */,
+				F81BBD0DC09E35656B9CFB5414466271 /* MYImagePickerVideoPreviewViewController.m */,
 			);
-			path = ImageBrowser;
+			name = ViewController;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		A826878DD8893312BB0735824D94B57A /* View */ = {
+		A503788A5D8373A82AD2DAD8576F6EB4 /* ImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				095CF41D6452EA95E1A0E3ADD8D2B5D4 /* MYImagePickerAlbumCell.h */,
-				5243AC0AF788661BC49B375152982109 /* MYImagePickerAlbumCell.m */,
-				4395B042D66A870CD2303317EA86B7EF /* MYImagePickerAlbumView.h */,
-				5E7AB26036A714E77135F3CBD1576081 /* MYImagePickerAlbumView.m */,
-				2787CC5A8F40A8190661FE1563880792 /* MYImagePickerNavigationBar.h */,
-				A3BE81B2F8FC8D197510AAAFAB4571E1 /* MYImagePickerNavigationBar.m */,
-				74EB65DA9AC6CCDFB56741153858D354 /* MYImagePickerSegmentControl.h */,
-				81FD5582045A90C686A1DC0EACEFA5ED /* MYImagePickerSegmentControl.m */,
-				43DBB92239C5162E3B0069AC5FA0C4A6 /* MYImagePickerAuthorizationTipsView.h */,
-				B8DC24A24FA3A8E13721721EE26D7CF6 /* MYImagePickerAuthorizationTipsView.m */,
+				5DB2FAE2EE8B7EE2D548F3C0F235520C /* Asset */,
+				161FE5C7AAD5569F1B2432764DE5B94D /* Base */,
+				C1D170BEEADC3282F51F8B7C79D13F88 /* Entity */,
+				31DAB9C6984B473D0D99D08725102AB8 /* Video */,
+				A9478514CA4B7E5C54E2221D1B696C27 /* View */,
+				C64445C009667174495ED60D2EFA855B /* ViewController */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A8608C8EEC6EB3A0A690955FB706BEF0 /* ImagePicker */ = {
-			isa = PBXGroup;
-			children = (
-				0705EE937DDAC095485411979ADE6138 /* Asset */,
-				3E82FBAF527F78F2E0DBC461257D12FF /* Base */,
-				ADA143DBEA46304B641C0CC786946C68 /* Entity */,
-				3489073DAB1CA369E34406EBBA97281D /* Video */,
-				A826878DD8893312BB0735824D94B57A /* View */,
-				18D504842166E6CE83FEEA46F1C9ECDA /* ViewController */,
-			);
+			name = ImagePicker;
 			path = ImagePicker;
 			sourceTree = "<group>";
 		};
-		ADA143DBEA46304B641C0CC786946C68 /* Entity */ = {
+		A9478514CA4B7E5C54E2221D1B696C27 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				52918F85BC535D0DA63C689F6C65F72F /* MYImagePickerAssetLayout.h */,
-				F8AB337F94FABCB6D160952D29C1A88F /* MYImagePickerAssetLayout.m */,
-				9AE01919D8C85EC56D28D17C30EAB0FF /* MYImagePickerVideoLayout.h */,
-				AC1E165E5EF73642CAF58DC4D7F5BE9F /* MYImagePickerVideoLayout.m */,
+				92B844F8120715367B9985DEE3277A2B /* MYImagePickerAlbumCell.h */,
+				F3CACE50180BBDA981A49A8787F98B39 /* MYImagePickerAlbumCell.m */,
+				5AA700C5CE659A1B9121D51D743BCA0E /* MYImagePickerAlbumView.h */,
+				E98DC2705B3743DD57E9AF8E3F1A066E /* MYImagePickerAlbumView.m */,
+				BB5A62E673C8F5FD4440A9B10E509102 /* MYImagePickerAuthorizationTipsView.h */,
+				946BD86D5A851E33B5E2F82FDE812F7B /* MYImagePickerAuthorizationTipsView.m */,
+				3FFC938D04EC5C021D3491F9EFCC5845 /* MYImagePickerNavigationBar.h */,
+				68853151DA6EF60340D0F66B0C6B1EDC /* MYImagePickerNavigationBar.m */,
+				BC7F000EE0302BDD25CB029BE5380178 /* MYImagePickerSegmentControl.h */,
+				D8473BCFFA6221B7EB1BF9E4CE9DA8AC /* MYImagePickerSegmentControl.m */,
 			);
-			path = Entity;
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		B248A66505858901D803E71D36298F78 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				07095D49ADC24A0674B167C2A64E4B85 /* ImageBrowser */,
+				A503788A5D8373A82AD2DAD8576F6EB4 /* ImagePicker */,
+				316FCE6B7D63C43EC311FD07F7AFD1B6 /* Support */,
+			);
+			name = Feature;
+			path = MYImagePicker/Classes/Feature;
+			sourceTree = "<group>";
+		};
+		B610047B8CDA9E901BABA3324C2B564B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				126D3DFB4BF1FAB63D17629052FD874E /* Config */,
+				E13E8CC2AA55F695C4B5B551E030F82A /* Entity */,
+				8181058457E80B25E7B44394DECFFA50 /* Manager */,
+			);
+			name = Core;
+			path = MYImagePicker/Classes/Core;
 			sourceTree = "<group>";
 		};
 		BDFB34A12FABD70C59DCE49920774B47 /* Support Files */ = {
@@ -690,6 +682,28 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
+		C1D170BEEADC3282F51F8B7C79D13F88 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CD21DF5B7A5A91AA134C7F6042C9DA2C /* MYImagePickerAssetLayout.h */,
+				9A6D0FAEB90BF944B7E7BB1699CDDC3A /* MYImagePickerAssetLayout.m */,
+				5CB67FB265FEE561F4B787A8672D561F /* MYImagePickerVideoLayout.h */,
+				FA343D433AE654B5FF2B4064EDC213B5 /* MYImagePickerVideoLayout.m */,
+			);
+			name = Entity;
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C64445C009667174495ED60D2EFA855B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				490E64AD88CB32901DA5E07146C252CE /* MYImagePickerViewController.h */,
+				D7C3B6DFA8A1126D92F95BDE1F9A8138 /* MYImagePickerViewController.m */,
+			);
+			name = ViewController;
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -702,15 +716,28 @@
 			);
 			sourceTree = "<group>";
 		};
-		D0EB680B154D829442156282E1E1547B /* Core */ = {
+		E13E8CC2AA55F695C4B5B551E030F82A /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				4BFDFDD1F565B5B5876FBB807F635C69 /* Config */,
-				865461A892DBFEAE07B51FF30EE8E8C0 /* Entity */,
-				7D2D2FD07275FBDAB33843A4F10619C8 /* Manager */,
+				67E12034EBC51CCDE31DEAA65BE66549 /* MYAlbum.h */,
+				F545047350B07128A6C8427EC44D4CFC /* MYAlbum.m */,
+				C813889C8913AA1F8DA996944D620958 /* MYAsset.h */,
+				FA917B975C826E878563F36FCC2D5841 /* MYAsset.m */,
 			);
-			name = Core;
-			path = MYImagePicker/Classes/Core;
+			name = Entity;
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		ECA6849AF15D0ADF433BE5E9176CDADD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9E073832533ECF26EBDE70065031CFB /* MYImagePickerAssetPreviewCell.h */,
+				A68AA260CCBEF7714C237499EB544203 /* MYImagePickerAssetPreviewCell.m */,
+				94AC471D62BE71B759DD44715BA3F45A /* MYImagePickerPreNavigationBar.h */,
+				334B86839ACE88CAFAE7696C1CE22ACD /* MYImagePickerPreNavigationBar.m */,
+			);
+			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		FCC7A4B79EBCC9CDD002AE8C729C4ED3 /* Targets Support Files */ = {
@@ -733,6 +760,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E8103304FD149F8B668A44D08BE60FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF683CD16AB604997CDC294E5EF5351D /* MYAlbum.h in Headers */,
+				F07734AB641789EA339A57F8391E94DA /* MYAsset.h in Headers */,
+				15223D8C519B9BA49070AF9A1FCBB85A /* MYImageFetchOperation.h in Headers */,
+				A13F0A1DAE1A35FC6DCAA98FE8D370D2 /* MYImagePicker-umbrella.h in Headers */,
+				C14AAFACA0388F789C680F56B7C893BE /* MYImagePicker.h in Headers */,
+				708EC4A2156BE6B12881F9172B1757D9 /* MYImagePickerAlbumCell.h in Headers */,
+				4D3FCDD7C82C3050EFFB41B6D0FC8C56 /* MYImagePickerAlbumView.h in Headers */,
+				34728415A5E8395C5AF898E2CE66F03A /* MYImagePickerAssetCell.h in Headers */,
+				DCAF05E59077C2FCCADCD277183F4728 /* MYImagePickerAssetLayout.h in Headers */,
+				AE131B50DA0FC443AC4B0738DD5092DF /* MYImagePickerAssetPreviewCell.h in Headers */,
+				DDB426D2B208BA9A2392591A0C5FF89C /* MYImagePickerAssetViewController.h in Headers */,
+				268649407C94F082F6DC5CA9614637B2 /* MYImagePickerAuthorizationTipsView.h in Headers */,
+				CCC9FD181A92C2D2627473CBF5F3C1B0 /* MYImagePickerBaseViewController.h in Headers */,
+				31334BF52E34D160198EB0FF8060E5E2 /* MYImagePickerConfig.h in Headers */,
+				5BDFB56199CBA6F23EB46940BC3ACA10 /* MYImagePickerCropManager.h in Headers */,
+				381CEF1C8066B2FF642F1991D455A40D /* MYImagePickerDefine.h in Headers */,
+				42E53AAC0455FF552D0AE5D3171FF112 /* MYImagePickerMacro.h in Headers */,
+				FC524233BC46D1F549C7D9AD73A9FEC0 /* MYImagePickerManager+Authorization.h in Headers */,
+				0D9F3DDFC9A7BB7E9D96B0B2CFA1BFC1 /* MYImagePickerManager+Helper.h in Headers */,
+				DCEB3A1EC58B4C1BC40042986E88B34D /* MYImagePickerManager+Observer.h in Headers */,
+				314A8E3C2284D20B450A9ED8DA72B359 /* MYImagePickerManager+Queue.h in Headers */,
+				F22D96266CED1C121A3A78834EB5B4C8 /* MYImagePickerManager.h in Headers */,
+				FD860B7AE538E5A727C8524811F06225 /* MYImagePickerNavigationBar.h in Headers */,
+				9610E3B4BE6B5B5FFB1E08B29B58E48A /* MYImagePickerNavigationController.h in Headers */,
+				FB1294996B02191615FE4CA9D458AEC5 /* MYImagePickerPhotoPreviewViewController.h in Headers */,
+				F49E91C922D53A29DD3B68620827FFED /* MYImagePickerPreNavigationBar.h in Headers */,
+				C2F97CDB19D501464558A53F66E243E3 /* MYImagePickerProgressHUD.h in Headers */,
+				96DF94F6CF879CF0E14378A6978ACC3E /* MYImagePickerProgressView.h in Headers */,
+				59022227D8AD25D7386311126B4E4220 /* MYImagePickerSegmentControl.h in Headers */,
+				40ACF3643F9A7EE5639E690F9AC9BE56 /* MYImagePickerVideoCell.h in Headers */,
+				B15D90F706298A3B034DDBEC73060768 /* MYImagePickerVideoLayout.h in Headers */,
+				FBF07DF8BFC789B479C1D424252ABC40 /* MYImagePickerVideoPreviewViewController.h in Headers */,
+				5E51E1FB12CD59001F63F5CEE93880E2 /* MYImagePickerVideoViewController.h in Headers */,
+				4C50F7A9EF62B8E410636BB37F0F615D /* MYImagePickerViewController.h in Headers */,
+				0474D02FEFF26376C6BB0136CD26A50B /* UIColor+MYImagePicker.h in Headers */,
+				4D616D44CB69B77DAD0C8A63D33CBACB /* UIImage+MYBundle.h in Headers */,
+				C76C2DECDBDA1BAB5DEE9DEB20E5D1D2 /* UIView+MYImagePickerCrop.h in Headers */,
+				8D4B4469FE817DA90D5729CF9179F4CD /* UIView+MYLayout.h in Headers */,
+				7D4347517AEF85CA45AB931C45B703C5 /* UIViewController+MYImagePickerHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6ECE0282E3B986F6738D7BF8E5382E50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -741,70 +814,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCC8F3B1119F04D2E2D0E4AD4BDF2E0A /* Headers */ = {
+		891F802F3141A0AAAB546B7586480E1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C92F40F2FA5CE9DB77F6DAD194103A77 /* MYAlbum.h in Headers */,
-				F4ECC4B9A5CAF87E0BFAAEF9EED6A6D8 /* MYAsset.h in Headers */,
-				05EFF3DABD9E836754D5B62514D4AA50 /* MYImageFetchOperation.h in Headers */,
-				3F17E8B1794AC7D36B86BD624B56D725 /* MYImagePicker-umbrella.h in Headers */,
-				02F60A8DFBC25A4A6B501B7C6F40DB25 /* MYImagePicker.h in Headers */,
-				C5A81600040B037AD69949127E57975A /* MYImagePickerAlbumCell.h in Headers */,
-				5E2E24AC576FEE23CDF8C14513B964D5 /* MYImagePickerAlbumView.h in Headers */,
-				06AA1AD815C1D0633BFCBE8226613561 /* MYImagePickerAssetCell.h in Headers */,
-				FC3ECA12922B7ED3CE7EF9EE3715231D /* MYImagePickerAssetLayout.h in Headers */,
-				961B652276546DF700BBD2ECA60B135F /* MYImagePickerAssetPreviewCell.h in Headers */,
-				9A374026B9B53F195369476FB88F8012 /* MYImagePickerAssetViewController.h in Headers */,
-				848F11D707BC636610552CF072F271E1 /* MYImagePickerBaseViewController.h in Headers */,
-				8A6A279525479BCBC5866ACB521E56B6 /* MYImagePickerConfig.h in Headers */,
-				1A6DC814CFC868F7AD073122CACF6C2C /* MYImagePickerDefine.h in Headers */,
-				B1917CC40592B8476BBB192F621965FD /* MYImagePickerMacro.h in Headers */,
-				38F670571ABF4A0BB8CA6F009ACE16EC /* MYImagePickerManager+Authorization.h in Headers */,
-				5FAC81A2D6E12A26482E75441FAD81FA /* MYImagePickerManager+Helper.h in Headers */,
-				0CDFC0E66049391A1E0547D2BF65572E /* MYImagePickerManager+Observer.h in Headers */,
-				5CFD31F334027F4C5400161A3E60F594 /* MYImagePickerManager+Queue.h in Headers */,
-				A59299F01E5F25E395D195EE3D8F2DA8 /* MYImagePickerManager.h in Headers */,
-				4A77157D7EB9FBA601F4ED495BABE5A5 /* MYImagePickerNavigationBar.h in Headers */,
-				79883F00CF2D07822D16FB7ED367F023 /* MYImagePickerNavigationController.h in Headers */,
-				FCB605D0F8B634EF2694E9E7AF240448 /* MYImagePickerPhotoPreviewViewController.h in Headers */,
-				438BA1FC0FEE2620EA27F4AF834BADDF /* MYImagePickerPreNavigationBar.h in Headers */,
-				CBBC71B5A936C4EAFE2B17C1D24E9B98 /* MYImagePickerProgressHUD.h in Headers */,
-				16EE19ADB2086A54D544570D926AB8AE /* MYImagePickerProgressView.h in Headers */,
-				4E41D11F42FA2C399ED9625C7000721E /* MYImagePickerSegmentControl.h in Headers */,
-				6D9A858F61CD5CB93331BD7820096AA2 /* MYImagePickerVideoCell.h in Headers */,
-				E4F37D5B5D3C58ADEAE1545B0624780C /* MYImagePickerVideoLayout.h in Headers */,
-				52E0FD7F87B218BA8CFFA35DA90EF743 /* MYImagePickerVideoPreviewViewController.h in Headers */,
-				DEA25F0B87CA35635A33BD970ACBFEAA /* MYImagePickerVideoViewController.h in Headers */,
-				196806C7732ED99610B372D1AECFE646 /* MYImagePickerViewController.h in Headers */,
-				9D847BCCEA7E31D29CC0E90F1556D1AE /* MYImagePickerAuthorizationTipsView.h in Headers */,
-				CDB624E5D136B40050ED8750FD935904 /* UIColor+MYImagePicker.h in Headers */,
-				E5A7EF7A2838DFBD6BA7C070097ADB17 /* UIImage+MYBundle.h in Headers */,
-				093885DD4718522AFB365BBB00E3C5C5 /* UIView+MYLayout.h in Headers */,
-				89B7167F9714A75E5ECB76F112B016E7 /* UIViewController+MYImagePickerHUD.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C878030D965E37B82483074E0920FDBA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9B18C7696651247B0C4A6DFEB47C4F6 /* MASCompositeConstraint.h in Headers */,
-				C5D56D3EB938437BE81F9B0456C348C7 /* MASConstraint+Private.h in Headers */,
-				FA1ABDEDFDFF22AF5B73B2D0CD593971 /* MASConstraint.h in Headers */,
-				8149E58EA5EE9F3540C7396E5BA5DF55 /* MASConstraintMaker.h in Headers */,
-				4B36461980416618100E6CE21B0EFE24 /* MASLayoutConstraint.h in Headers */,
-				C4C7BD06DF4D922C5DCA1FAB583A8CE4 /* Masonry-umbrella.h in Headers */,
-				A141F999006E92D792DCCC38DB9082A3 /* Masonry.h in Headers */,
-				37F9154061CFE11F9DD4B8BB395F12D5 /* MASUtilities.h in Headers */,
-				9E8720BFF06F89D8EDD9E353C60FBFC1 /* MASViewAttribute.h in Headers */,
-				EF0B5BC4A61834FA440B8E341B26DAFD /* MASViewConstraint.h in Headers */,
-				F574111C8072A3D76B7BCE6434E15655 /* NSArray+MASAdditions.h in Headers */,
-				CAB5A47022BEA054A1004B6CA0E5B367 /* NSArray+MASShorthandAdditions.h in Headers */,
-				7DFE173B46D81C4BFBE8464C4BA2060A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				58E3B3A4A02C9A1E858FB9CC645AD4E7 /* View+MASAdditions.h in Headers */,
-				74408AC2A66605D3783DA8F201A6CB60 /* View+MASShorthandAdditions.h in Headers */,
-				61144723DF717B3415D83C97E5C32D67 /* ViewController+MASAdditions.h in Headers */,
+				E318B0D6BA1A051DD5CD3B6920326ED0 /* MASCompositeConstraint.h in Headers */,
+				3B2F82A1BFB2ED95F2A1EDF0ACE35F55 /* MASConstraint+Private.h in Headers */,
+				1B44E673DA643718D8A0834C44FFB651 /* MASConstraint.h in Headers */,
+				08B6B69C41930923ED53F4A689275F93 /* MASConstraintMaker.h in Headers */,
+				8CF78D411A535C114707DA3E98D5EF5D /* MASLayoutConstraint.h in Headers */,
+				6EF537943DA73F341964DFE7C600FC6E /* Masonry-umbrella.h in Headers */,
+				1C7FDC7412C8D341879344937522143E /* Masonry.h in Headers */,
+				FE97F31AD1559402400FE82E029BFA97 /* MASUtilities.h in Headers */,
+				6C9F05A0C4CA29FE96FE4F0BF0D66F48 /* MASViewAttribute.h in Headers */,
+				D4AA876A19C5E7F4117C36401D52242F /* MASViewConstraint.h in Headers */,
+				A768AD3479837052A069922B3DFD8F99 /* NSArray+MASAdditions.h in Headers */,
+				45E7D48BCDF2E0BC6072C85813FFDDA0 /* NSArray+MASShorthandAdditions.h in Headers */,
+				2FBB5974A84163E5318F91576FA7E5E3 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				7562EF3DCAF67F25DB9B4BFC756A9B2A /* View+MASAdditions.h in Headers */,
+				202BEDE08DB912659624CB54FA0096B6 /* View+MASShorthandAdditions.h in Headers */,
+				293CD7791350FEFF9DB3DF07EB70112D /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,12 +842,12 @@
 /* Begin PBXNativeTarget section */
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9036DDB965487E1B15FE7FFBDE78590A /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 7ABA6B5E68923A66439A56D60D0A2725 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				C878030D965E37B82483074E0920FDBA /* Headers */,
-				E6B00AF319AC4D049B23301755BB217D /* Sources */,
-				0340454DD4837C76F7CE957E6720A056 /* Frameworks */,
-				E1A17592705AA75CD7E733757F907A4F /* Resources */,
+				891F802F3141A0AAAB546B7586480E1E /* Headers */,
+				DEB70E870423B18EF24F7253732630EC /* Sources */,
+				F56643477E39CE2FE451D4DAC9E83EF0 /* Frameworks */,
+				DBF61A5EE5309E14555871C59A910523 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -870,17 +899,17 @@
 		};
 		E0D3DA80C1FB7B1E44EBAD5899FF33A5 /* MYImagePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57E5FB8BCF7557F1ABAA45CEB28EC931 /* Build configuration list for PBXNativeTarget "MYImagePicker" */;
+			buildConfigurationList = 3AE814ACD6B93A619DF19C879A6B158D /* Build configuration list for PBXNativeTarget "MYImagePicker" */;
 			buildPhases = (
-				BCC8F3B1119F04D2E2D0E4AD4BDF2E0A /* Headers */,
-				12C08213D133206C5A702928825C2526 /* Sources */,
-				D442E6E9172C761F5331E05C674FD0D8 /* Frameworks */,
-				E2D554F219C4705253180388C9420D25 /* Resources */,
+				6E8103304FD149F8B668A44D08BE60FF /* Headers */,
+				B5B409638FE423DEEEB6387B779DDF7B /* Sources */,
+				D2A4D5B6B476F328A0E917B66A604FC7 /* Frameworks */,
+				200BE999F0915023EBFC9C2C40841B6D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				538375707CF3B457E966BF80580FB231 /* PBXTargetDependency */,
+				14EE6ADBFD1CCBE976AA10E02552FD46 /* PBXTargetDependency */,
 			);
 			name = MYImagePicker;
 			productName = MYImagePicker;
@@ -918,6 +947,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		200BE999F0915023EBFC9C2C40841B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D0051CDFB355DD1CADDF4D17F3A09F /* MYImagePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C034D1EA2AB4BCD40C103F167C41CE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -932,66 +969,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1A17592705AA75CD7E733757F907A4F /* Resources */ = {
+		DBF61A5EE5309E14555871C59A910523 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2D554F219C4705253180388C9420D25 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED529D414EB6489957849F9F1F666957 /* MYImagePicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12C08213D133206C5A702928825C2526 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				372DA2496B825E18481D636F7BE516F1 /* MYAlbum.m in Sources */,
-				730266138853E0C7A04E3B39CEC40A25 /* MYAsset.m in Sources */,
-				F0C26ED81D87A451505DADB6E3AFBB02 /* MYImageFetchOperation.m in Sources */,
-				366892CCAD385BD8B27FB3D9E0FE7BE3 /* MYImagePicker-dummy.m in Sources */,
-				A9CF8BDB8CD6D225CA541A960768A45B /* MYImagePicker.m in Sources */,
-				007D7EB052F147F7A793F9227116E967 /* MYImagePickerAlbumCell.m in Sources */,
-				1819BB4C8524FA7500971E77305F1F31 /* MYImagePickerAlbumView.m in Sources */,
-				12A86D99DBDD602C8952040ACA14403A /* MYImagePickerAssetCell.m in Sources */,
-				C4058E0427640C52D47401D3254F4CAD /* MYImagePickerAssetLayout.m in Sources */,
-				DEE238110747417128A43414E2B27C26 /* MYImagePickerAssetPreviewCell.m in Sources */,
-				FD8F3EED99DB9A4AC477E06BB9995E67 /* MYImagePickerAssetViewController.m in Sources */,
-				63456A5254361B7577BFF753918FE79D /* MYImagePickerBaseViewController.m in Sources */,
-				652EBF1FDA48B416B4A76D9FB101F6B8 /* MYImagePickerConfig.m in Sources */,
-				735BAECD1D0E3E08E70DB749AF5EE646 /* MYImagePickerManager+Authorization.m in Sources */,
-				86E8E6B5EA0058D8BBC868C78FAB822C /* MYImagePickerManager+Helper.m in Sources */,
-				A191037F8F6F8E29C668E535D6950245 /* MYImagePickerManager+Observer.m in Sources */,
-				4BAB9F9D72C774BA96CBA1D1262FEC0A /* MYImagePickerManager+Queue.m in Sources */,
-				1316916454A50DEC0017D0C4B4CB46E4 /* MYImagePickerManager.m in Sources */,
-				1D247EB803D087779A82A81B5C75AD91 /* MYImagePickerNavigationBar.m in Sources */,
-				96A814B16BDF30F0ED3386223D032872 /* MYImagePickerNavigationController.m in Sources */,
-				0511DBCC884ED1023B74892A32B8CDB5 /* MYImagePickerPhotoPreviewViewController.m in Sources */,
-				97C995618AA70AA8C50CDE2B6B62443E /* MYImagePickerPreNavigationBar.m in Sources */,
-				26805C05F53130165794A87BEA284BC3 /* MYImagePickerProgressHUD.m in Sources */,
-				4F25956A6882C714B95591250CAFB8F7 /* MYImagePickerProgressView.m in Sources */,
-				82D5C096446F189C4118358EB33EE336 /* MYImagePickerSegmentControl.m in Sources */,
-				132089A1FF8D9ABEE7A7FD76B2743CFC /* MYImagePickerVideoCell.m in Sources */,
-				F80405CFED287A8ECDF37C6406F216C2 /* MYImagePickerVideoLayout.m in Sources */,
-				178AC419126827C31732536457BFB365 /* MYImagePickerVideoPreviewViewController.m in Sources */,
-				72268050E0E8A014863AA1F0F6D1E1ED /* MYImagePickerVideoViewController.m in Sources */,
-				B2ABAD79752DCD934FA8B5DBFC70394D /* MYImagePickerViewController.m in Sources */,
-				8F48824AE3D7053EF7A7E736DD2B6FBA /* MYImagePickerAuthorizationTipsView.m in Sources */,
-				CE01350940FF5923D8CBB9E1B46DD907 /* UIColor+MYImagePicker.m in Sources */,
-				23D9982FF210623E022D2A7E739BE6C2 /* UIImage+MYBundle.m in Sources */,
-				FA20E9312BD700714D2DDB7ECFD31659 /* UIView+MYLayout.m in Sources */,
-				84A52A2CDB1655D66D73FEF96E18ABD3 /* UIViewController+MYImagePickerHUD.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		32F55AC3AB3D0869F73C7C80AB74421C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1008,32 +995,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6B00AF319AC4D049B23301755BB217D /* Sources */ = {
+		B5B409638FE423DEEEB6387B779DDF7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3F006C4755424294193E9FAD1837BD /* MASCompositeConstraint.m in Sources */,
-				D1D822FC018762E8011D6DE97203A5DB /* MASConstraint.m in Sources */,
-				6677B0CD59492AE9C54AA4A0E635C48F /* MASConstraintMaker.m in Sources */,
-				A5A17DCAA58E8FF1A59E197638337EF1 /* MASLayoutConstraint.m in Sources */,
-				DEB7398EDB9B222703C76134E052CF63 /* Masonry-dummy.m in Sources */,
-				9E51E794BACCB56C19DAE636085710F3 /* MASViewAttribute.m in Sources */,
-				6D8BBE2E8CF3A4A9F333D535E667DBCB /* MASViewConstraint.m in Sources */,
-				D9AFEE3DB2E254ADF5322B359354AF9B /* NSArray+MASAdditions.m in Sources */,
-				9B552E6FE0DC417915C2B1BBF9166AE4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				CFF2F82390D0E44E03CE9167C144CB20 /* View+MASAdditions.m in Sources */,
-				64FC9F33B5D289BC42262AA85CA09E27 /* ViewController+MASAdditions.m in Sources */,
+				100D3AAE8358568818F91DFA444D9B63 /* MYAlbum.m in Sources */,
+				FE1606D63E49B1AB76C5D2A786C1550A /* MYAsset.m in Sources */,
+				57A91A09003FB34E5DABEDF6855EACAE /* MYImageFetchOperation.m in Sources */,
+				F86B76FC4DF63AECC1EABD602A4382D2 /* MYImagePicker-dummy.m in Sources */,
+				3D764C28D8EA4760A020B511E846CD4A /* MYImagePicker.m in Sources */,
+				9AAB9905550166F017BD0F635A3C92AA /* MYImagePickerAlbumCell.m in Sources */,
+				41810D99E71D708FD9318DE39207452E /* MYImagePickerAlbumView.m in Sources */,
+				423C8CF7E96310B0FA641E2168DBABF2 /* MYImagePickerAssetCell.m in Sources */,
+				94AA38E508DD7A3FFE2C5FA8B4353561 /* MYImagePickerAssetLayout.m in Sources */,
+				96D53C722EBC808E1110278971C6C504 /* MYImagePickerAssetPreviewCell.m in Sources */,
+				56611DB1775712F76E71E03DA5102611 /* MYImagePickerAssetViewController.m in Sources */,
+				17D556C4BB987FFC6604E9436A37EB06 /* MYImagePickerAuthorizationTipsView.m in Sources */,
+				16ED9B161EBE231CA548CDBFA94E6786 /* MYImagePickerBaseViewController.m in Sources */,
+				1625AF7298C1066B8A375FF7410A1DA7 /* MYImagePickerConfig.m in Sources */,
+				435BBFDB913DCFF93447D375D9227435 /* MYImagePickerCropManager.m in Sources */,
+				D59D3E46B5285647CFAAA9517A2F225B /* MYImagePickerManager+Authorization.m in Sources */,
+				BC87EF7407CE571DA2BF789508F04421 /* MYImagePickerManager+Helper.m in Sources */,
+				2D82DEAF115208C7212D522E2DD958B5 /* MYImagePickerManager+Observer.m in Sources */,
+				AD22706499FB804C58F91F32063BE3F4 /* MYImagePickerManager+Queue.m in Sources */,
+				D81AB7DF0D9E6FB0447E42E559D42EF9 /* MYImagePickerManager.m in Sources */,
+				74A83376F8677A259E2EB0D132F5F945 /* MYImagePickerNavigationBar.m in Sources */,
+				8D4A38DC5560CDEE5BD7C137159502BC /* MYImagePickerNavigationController.m in Sources */,
+				43FC161200FDD65C8BC138C9E982FFB9 /* MYImagePickerPhotoPreviewViewController.m in Sources */,
+				A89C85611E381904575B59666237711C /* MYImagePickerPreNavigationBar.m in Sources */,
+				D8D305A983EC10E8105926ED94A26F5D /* MYImagePickerProgressHUD.m in Sources */,
+				DA52DB90283F1DB17C0230FCB311789F /* MYImagePickerProgressView.m in Sources */,
+				F20B127616C89D958E684E7668CEA2AE /* MYImagePickerSegmentControl.m in Sources */,
+				B0149F3AB96669810F973FAB7920BE9B /* MYImagePickerVideoCell.m in Sources */,
+				C5064A8248D04F38ED84637B75898292 /* MYImagePickerVideoLayout.m in Sources */,
+				B8B81CE478D057919850190A9A1EA4F6 /* MYImagePickerVideoPreviewViewController.m in Sources */,
+				8C382EC15CEC46CECCD8D91399B37489 /* MYImagePickerVideoViewController.m in Sources */,
+				E58703356AF72350A3EA03BBF5622DF4 /* MYImagePickerViewController.m in Sources */,
+				DE2A28D4570E482F6F3ABA01D2378071 /* UIColor+MYImagePicker.m in Sources */,
+				740E50168E98011B3689C57BFC799DF5 /* UIImage+MYBundle.m in Sources */,
+				F9AB779F2AAA272A88B716AACB199D51 /* UIView+MYImagePickerCrop.m in Sources */,
+				44F7D6394F37EDB1F13CB1DACB7051B9 /* UIView+MYLayout.m in Sources */,
+				C903188C1AFF956511A4C0CFAB425869 /* UIViewController+MYImagePickerHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB70E870423B18EF24F7253732630EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C383D530A9E63E99A298B6D587A19E49 /* MASCompositeConstraint.m in Sources */,
+				BDE36D6FFC802F9E4FBDAB3108FFDDE1 /* MASConstraint.m in Sources */,
+				EC3845219505068D2AF502981FFF42F6 /* MASConstraintMaker.m in Sources */,
+				832ECDB76B7055D4CA49905490263500 /* MASLayoutConstraint.m in Sources */,
+				EA41CEA9E6D4D815C9A5CAFA78C39488 /* Masonry-dummy.m in Sources */,
+				5CBB1E30E5944689AF12C17231EA5A14 /* MASViewAttribute.m in Sources */,
+				5753C5F31B4FA5E647C1260DD5BE2D55 /* MASViewConstraint.m in Sources */,
+				C1F86BF55F3CB537AE809463F7009100 /* NSArray+MASAdditions.m in Sources */,
+				2BC5EB1F091CDFA47F049F4F142DDBFE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				B443E82E94F4EEDEDBA86551F57552FC /* View+MASAdditions.m in Sources */,
+				5F6520744145D4662F9EC1433C7FFE12 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		538375707CF3B457E966BF80580FB231 /* PBXTargetDependency */ = {
+		14EE6ADBFD1CCBE976AA10E02552FD46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 1D5460D6B633C9E4E8BF3A11D41F6463 /* PBXContainerItemProxy */;
+			targetProxy = 168EB76EE56D3F6163C2239F1E5A7078 /* PBXContainerItemProxy */;
 		};
 		63F88FF6A9AC53EFF22231128A97C53A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1056,9 +1087,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		215410F8CDA0FB016156799B04944174 /* Release */ = {
+		1B3E74F6129141652B8BE0930D22A6AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
+			baseConfigurationReference = 7141030A6ACCBAF5C4886BD2E6E1CABA /* MYImagePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1069,14 +1100,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MYImagePicker/MYImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MYImagePicker/MYImagePicker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
+				MODULEMAP_FILE = "Target Support Files/MYImagePicker/MYImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = MYImagePicker;
+				PRODUCT_NAME = MYImagePicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1088,7 +1119,7 @@
 			};
 			name = Release;
 		};
-		493A1AA5574279C108F58AD955FD88AB /* Debug */ = {
+		485E5504AB3A2BB6100578C364C0B5A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7141030A6ACCBAF5C4886BD2E6E1CABA /* MYImagePicker.xcconfig */;
 			buildSettings = {
@@ -1172,7 +1203,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1211,37 +1243,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		69DD53CF1B900680F9EBE0BCAD35F644 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1307,9 +1308,9 @@
 			};
 			name = Debug;
 		};
-		86FA0D7009CDEDAC1C90140D6DB51D50 /* Release */ = {
+		C222F2E96A290107646D031058EB2467 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7141030A6ACCBAF5C4886BD2E6E1CABA /* MYImagePicker.xcconfig */;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1320,24 +1321,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MYImagePicker/MYImagePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MYImagePicker/MYImagePicker-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MYImagePicker/MYImagePicker.modulemap";
-				PRODUCT_MODULE_NAME = MYImagePicker;
-				PRODUCT_NAME = MYImagePicker;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CCB58FFF09BA91691452071FC98302F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1406,6 +1406,38 @@
 			};
 			name = Release;
 		};
+		E73C5D776ACBF9170D4B73BBBAC2BAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F55D34E4624A0D71C529113507969DB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA24BB9D706D3F822ADA9FD6084D7176 /* Pods-MYImagePicker_Example.debug.xcconfig */;
@@ -1442,20 +1474,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3AE814ACD6B93A619DF19C879A6B158D /* Build configuration list for PBXNativeTarget "MYImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485E5504AB3A2BB6100578C364C0B5A5 /* Debug */,
+				1B3E74F6129141652B8BE0930D22A6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		57E5FB8BCF7557F1ABAA45CEB28EC931 /* Build configuration list for PBXNativeTarget "MYImagePicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				493A1AA5574279C108F58AD955FD88AB /* Debug */,
-				86FA0D7009CDEDAC1C90140D6DB51D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1469,11 +1501,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9036DDB965487E1B15FE7FFBDE78590A /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		7ABA6B5E68923A66439A56D60D0A2725 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69DD53CF1B900680F9EBE0BCAD35F644 /* Debug */,
-				215410F8CDA0FB016156799B04944174 /* Release */,
+				C222F2E96A290107646D031058EB2467 /* Debug */,
+				E73C5D776ACBF9170D4B73BBBAC2BAD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

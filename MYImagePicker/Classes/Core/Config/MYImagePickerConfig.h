@@ -53,9 +53,24 @@ FOUNDATION_EXPORT NSUInteger const kYTMaxImageCount;
 @property (nonatomic, assign) BOOL onlyReturnAsset;
 /// 是否允许同时选择图片和视频，默认为YES，如果设置为NO，视频选择卡片不显示
 @property (nonatomic, assign) BOOL allowPickingVideoAsset;
+/// 是否显示图片选择列表选择按钮，默认YES
+@property (nonatomic, assign) BOOL showSelectBtn;
+
+/// 是否图片等比缩放填充cropRect区域
+@property (nonatomic, assign) BOOL scaleAspectFillCrop;
+/// 允许裁剪,默认为NO
+@property (nonatomic, assign) BOOL allowCrop;
+/// 裁剪框的尺寸
+@property (nonatomic, assign) CGRect cropRect;
+/// 需要圆角裁剪框
+@property (nonatomic, assign) BOOL needCircleCrop;
+/// 圆角裁剪框半径大小
+@property (nonatomic, assign) NSInteger circleCropRadius;
 
 /// 默认配置
 + (instancetype)defaultConfig;
+/// 默认裁剪图片配置，只能选择一张图片
++ (instancetype)defaultCropImageConfig;
 
 @end
 
