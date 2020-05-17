@@ -20,6 +20,8 @@
 #import "MYImagePickerManager+Observer.h"
 #import "MYImagePickerManager+Queue.h"
 #import "MYImagePickerManager.h"
+#import "MYImagePickerPhotoPreviewView.h"
+#import "MYImagePickerCropImageViewController.h"
 #import "MYImagePickerAssetPreviewCell.h"
 #import "MYImagePickerPreNavigationBar.h"
 #import "MYImagePickerPhotoPreviewViewController.h"
