@@ -167,7 +167,7 @@ static NSString *const MYImagePickerAssetCellReuseIdentifier = @"MYImagePickerAs
             NSArray *selectedModels = [NSArray arrayWithArray:strongSelf.assetPickerVC.selectedModels];
             for (MYAsset *model_item in selectedModels) {
                 if ([assetModel.asset.localIdentifier isEqualToString:model_item.asset.localIdentifier]) {
-                    [self.assetPickerVC removeSelectedModel:model_item];
+                    [strongSelf.assetPickerVC removeSelectedModel:model_item];
                     break;
                 }
             }
@@ -188,7 +188,7 @@ static NSString *const MYImagePickerAssetCellReuseIdentifier = @"MYImagePickerAs
                 [strongSelf.assetPickerVC addSelectedModel:assetModel];
                 [[NSNotificationCenter defaultCenter] postNotificationName:MYImageAssetPickeReloadNotificationKey object:strongSelf.assetPickerVC];
             } else {
-                [self showPhotoSelectLimitAlert];
+                [strongSelf showPhotoSelectLimitAlert];
             }
         }
     };
