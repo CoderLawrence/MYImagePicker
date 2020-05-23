@@ -95,7 +95,7 @@
         _cancelButton = [[UIButton alloc] init];
         [_cancelButton addTarget:self action:@selector(onBackButtonClick) forControlEvents:UIControlEventTouchUpInside];
         [_cancelButton setTitle:@"取消" forState:UIControlStateNormal];
-        [_cancelButton.titleLabel setFont:[UIFont fontWithName:@"PingFangSC-Semibold" size:18]];
+        [_cancelButton.titleLabel setFont:[UIFont fontWithName:@"PingFangSC-Regular" size:18]];
         [_cancelButton setTitleColor:MYHexColor(0xffffff) forState:UIControlStateNormal];
     }
     
@@ -108,7 +108,7 @@
         _confimButton = [[UIButton alloc] init];
         [_confimButton addTarget:self action:@selector(onConfirmBtnClick:) forControlEvents:UIControlEventTouchUpInside];
         [_confimButton setTitle:@"确认" forState:UIControlStateNormal];
-        [_confimButton.titleLabel setFont:[UIFont fontWithName:@"PingFangSC-Semibold" size:18]];
+        [_confimButton.titleLabel setFont:[UIFont fontWithName:@"PingFangSC-Regular" size:18]];
         [_confimButton setTitleColor:MYHexColor(0xffffff) forState:UIControlStateNormal];
     }
     
