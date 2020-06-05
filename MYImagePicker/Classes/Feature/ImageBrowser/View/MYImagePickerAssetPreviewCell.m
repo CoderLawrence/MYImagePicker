@@ -39,6 +39,7 @@
 
 - (void)configSubviews {
     self.previewView = [[MYImagePickerPhotoPreviewView alloc] initWithFrame:CGRectZero];
+    self.previewView.allowCrop = NO;
     [self.previewView setShowSelectBtn:YES];
     __weak typeof(self) weakSelf = self;
     [self.previewView setSingleTapGestureBlock:^{
@@ -71,21 +72,6 @@
 
 - (void)recoverSubviews {
     [_previewView recoverSubviews];
-}
-
-- (void)setAllowCrop:(BOOL)allowCrop {
-    _allowCrop = allowCrop;
-    _previewView.allowCrop = allowCrop;
-}
-
-- (void)setScaleAspectFillCrop:(BOOL)scaleAspectFillCrop {
-    _scaleAspectFillCrop = scaleAspectFillCrop;
-    _previewView.scaleAspectFillCrop = scaleAspectFillCrop;
-}
-
-- (void)setCropRect:(CGRect)cropRect {
-    _cropRect = cropRect;
-    _previewView.cropRect = cropRect;
 }
 
 - (void)setIndex:(NSInteger)index

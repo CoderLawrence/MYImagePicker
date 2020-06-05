@@ -28,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger circleCropRadius;
 /// 是否图片等比缩放填充cropRect区域
 @property (nonatomic, assign) BOOL scaleAspectFillCrop;
+/// 裁剪回调
+@property (nonatomic, copy) void (^doneButtonClickBlockCropMode)(UIImage *cropedImage, id asset);
 
 - (instancetype)initWithModel:(MYAsset *)model;
 

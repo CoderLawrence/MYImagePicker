@@ -22,9 +22,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) MYAsset *model;
 @property (nonatomic, assign) NSInteger index;
-@property (nonatomic, assign) BOOL allowCrop;
-@property (nonatomic, assign) CGRect cropRect;
-@property (nonatomic, assign) BOOL scaleAspectFillCrop;
 
 - (void)updateSelectedStatus;
 

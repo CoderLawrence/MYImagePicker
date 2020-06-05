@@ -43,8 +43,6 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
 
 @implementation MYImagePickerPhotoPreviewViewController
 
-@synthesize cropRect = _cropRect;
-
 //MARK: - 生命周期
 - (instancetype)init
 {
@@ -78,8 +76,6 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
     _flowLayout.minimumLineSpacing = 0;
     _collectionView.frame = CGRectMake(-10, MY_IMG_Navigation_H, self.view.myp_width + 20, height);
     [_collectionView setCollectionViewLayout:_flowLayout];
-    
-    [self configCropView];
 }
 
 //MARK: - getter && setter
@@ -146,19 +142,6 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
     return _cropBgView;
 }
 
-- (CGRect)cropRect
-{
-    CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
-    BOOL isFullScreen = self.view.myp_height == screenHeight;
-    if (isFullScreen) {
-        return _cropRect;
-    } else {
-        CGRect newCropRect = _cropRect;
-        newCropRect.origin.y -= ((screenHeight - self.view.myp_height) / 2);
-        return newCropRect;
-    }
-}
-
 //MARK: - 视图更新
 - (void)setupUI
 {
@@ -166,34 +149,6 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
     [self.view addSubview:self.collectionView];
 }
 
-- (void)configCropView
-{
-    MYImagePickerConfig *config = self.imagePickerVC.config;
-    if (config.maxImagesCount <= 1 && config.allowCrop) {
-        if (self.circleCropRadius > 0) {
-            self.cropRect = CGRectMake(self.view.myp_width / 2 - _circleCropRadius, self.view.myp_height / 2 - _circleCropRadius, _circleCropRadius * 2, _circleCropRadius * 2);
-        }
-        
-        [self.cropView removeFromSuperview];
-        [self.cropBgView removeFromSuperview];
-        
-        [self.cropBgView setFrame:self.view.bounds];
-        [self.view addSubview:self.cropBgView];
-        [UIView my_overlayClippingWithView:self.cropBgView
-                                  cropRect:self.cropRect
-                             containerView:self.view
-                            needCircleCrop:self.needCircleCrop];
-        
-        [self.cropView setFrame:self.cropRect];
-        [self.view addSubview:self.cropView];
-        if (self.needCircleCrop) {
-            self.cropView.layer.cornerRadius = self.cropRect.size.width / 2;
-            [self.cropView setClipsToBounds:YES];
-        }
-        
-        [self.view bringSubviewToFront:self.naviBar];
-    }
-}
 
 //MARK: - UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -222,9 +177,6 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
 {
     MYAsset *model = [self.models objectAtIndex:indexPath.item];
     MYImagePickerAssetPreviewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:MYImagePickerPreviewPohotoReuseCellIdentifier forIndexPath:indexPath];
-    cell.allowCrop = self.allowCrop;
-    cell.cropRect = self.cropRect;
-    cell.scaleAspectFillCrop = self.scaleAspectFillCrop;
     [cell setIndex:[self.imagePickerVC.selectedAssetIds indexOfObject:model.asset.localIdentifier] + 1];
     __weak typeof(_imagePickerVC) weakImagePickerVC = _imagePickerVC;
     __weak typeof(cell) weakCell = cell;
@@ -279,13 +231,8 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
 //MARK:  - 私有方法
 - (void)refershAssetSelectedStatus
 {
-    if (self.allowCrop && self.imagePickerVC.config.maxImagesCount <= 1) {
-        [self.naviBar.nextButton setHidden:NO];
-        [self.naviBar.nextButton setTitle:@"下一步" forState:UIControlStateNormal];
-    } else {
-        self.naviBar.nextButton.hidden = self.imagePickerVC.selectedModels.count <= 0;
-        [self.naviBar.nextButton setTitle:[NSString stringWithFormat:@"下一步(%zd)", self.imagePickerVC.selectedModels.count] forState:UIControlStateNormal];
-    }
+    self.naviBar.nextButton.hidden = self.imagePickerVC.selectedModels.count <= 0;
+    [self.naviBar.nextButton setTitle:[NSString stringWithFormat:@"下一步(%zd)", self.imagePickerVC.selectedModels.count] forState:UIControlStateNormal];
 }
 
 //MARK: - 弹窗
@@ -309,27 +256,8 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
 
 - (void)onDoneButtonClick:(UIButton *)sender
 {
-    //图片裁剪
-    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:self.currentIndex inSection:0];
-    MYImagePickerAssetPreviewCell *cell = (MYImagePickerAssetPreviewCell *)[_collectionView cellForItemAtIndexPath:indexPath];
-    if (self.allowCrop && [cell isKindOfClass:[MYImagePickerAssetPreviewCell class]]) {
+    if ([self.imagePickerVC handleDoneButtonClick]) {
         sender.enabled = NO;
-        [self myp_showProgressHUD];
-        UIImage *cropedImage = [MYImagePickerCropManager cropImageView:cell.previewView.imageView toRect:self.cropRect zoomScale:cell.previewView.scrollView.zoomScale containerView:self.view];
-        if (self.needCircleCrop) {
-            cropedImage = [MYImagePickerCropManager circularClipImage:cropedImage];
-        }
-        
-        sender.enabled = YES;
-        [self myp_hideProgressHUD];
-        if (self.doneButtonClickBlockCropMode) {
-            MYAsset *model = self.models[self.currentIndex];
-            self.doneButtonClickBlockCropMode(cropedImage, model.asset);
-        }
-    } else {
-        if ([self.imagePickerVC handleDoneButtonClick]) {
-            sender.enabled = NO;
-        }
     }
 }
 

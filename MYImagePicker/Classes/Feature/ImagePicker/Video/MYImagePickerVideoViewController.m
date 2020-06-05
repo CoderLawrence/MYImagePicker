@@ -26,6 +26,7 @@
 
 #import "MYImagePickerManager.h"
 #import "MYImagePickerManager+Queue.h"
+#import "MYImagePickerManager+Authorization.h"
 
 static NSString *const MYImagePickerVideoCellReuseIdentifier = @"MYImagePickerVideoCellReuseIdentifier";
 
@@ -105,30 +106,39 @@ static NSString *const MYImagePickerVideoCellReuseIdentifier = @"MYImagePickerVi
     }];
 }
 
+//MARK: - 公开方法
+- (void)reload
+{
+    [self handlerUpdateAbumModels];
+}
+
+//MARK: - 私有方法
 - (void)handlerUpdateAbumModels
 {
-    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        @autoreleasepool {
-            [[MYImagePickerManager shared] getAllAlbums:YES allowPickingImage:NO needFetchAssets:YES completion:^(NSArray<MYAlbum *> * _Nonnull models) {
-                if ([models count] > 0) {
-                    self->_albumModels = models;
-                    for (MYAlbum *album in self->_albumModels) {
-                        if ([album.models count] > 0) {
-                            [self.assetModels addObjectsFromArray:album.models];
+    if ([[MYImagePickerManager shared] authorizationStatusAuthorized]) {
+        dispatch_async(dispatch_get_global_queue(0, 0), ^{
+            @autoreleasepool {
+                [[MYImagePickerManager shared] getAllAlbums:YES allowPickingImage:NO needFetchAssets:YES completion:^(NSArray<MYAlbum *> * _Nonnull models) {
+                    if ([models count] > 0) {
+                        self->_albumModels = models;
+                        for (MYAlbum *album in self->_albumModels) {
+                            if ([album.models count] > 0) {
+                                [self.assetModels addObjectsFromArray:album.models];
+                            }
                         }
                     }
-                }
-            }];
-        }
-        
-        dispatch_async(dispatch_get_main_queue(), ^{
-            if ([self.assetModels count] > 0) {
-                [self.collectionView reloadData];
-            } else {
-                [self.tipsLabel setHidden:NO];
+                }];
             }
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if ([self.assetModels count] > 0) {
+                    [self.collectionView reloadData];
+                } else {
+                    [self.tipsLabel setHidden:NO];
+                }
+            });
         });
-    });
+    }
 }
 
 //MARK: - UICollectionViewDelegate && UICollectionViewDataSource

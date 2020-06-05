@@ -7,6 +7,8 @@
 
 #import "MYImagePickerCropImageViewController.h"
 
+#import "MYAsset.h"
+
 #import "MYImagePickerConfig.h"
 
 #import "MYImagePickerMacro.h"
@@ -14,6 +16,8 @@
 #import "UIColor+MYImagePicker.h"
 #import "UIView+MYImagePickerCrop.h"
 #import "UIViewController+MYImagePickerHUD.h"
+
+#import "MYImagePickerCropManager.h"
 
 #import "MYImagePickerPhotoPreviewView.h"
 #import "MYImagePickerViewController.h"
@@ -194,7 +198,18 @@
 //MARK: - 事件响应
 - (void)onConfirmBtnClick:(UIButton *)sender
 {
+    sender.enabled = NO;
+    [self myp_showProgressHUD];
+    UIImage *cropedImage = [MYImagePickerCropManager cropImageView:self.previewView.imageView toRect:self.cropRect zoomScale:self.previewView.scrollView.zoomScale containerView:self.view];
+    if (self.needCircleCrop) {
+        cropedImage = [MYImagePickerCropManager circularClipImage:cropedImage];
+    }
     
+    sender.enabled = YES;
+    [self myp_hideProgressHUD];
+    if (self.doneButtonClickBlockCropMode) {
+        self.doneButtonClickBlockCropMode(cropedImage, self.model.asset);
+    }
 }
 
 //MARK: - 方法重载

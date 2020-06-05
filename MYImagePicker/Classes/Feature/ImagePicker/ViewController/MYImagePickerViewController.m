@@ -408,6 +408,7 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
     if ([[MYImagePickerManager shared] authorizationStatusAuthorized]) {
         [self.authorizationTipsView removeFromSuperview];
         [self handlerFetchAlbumData];
+        [self.videoChildVC reload];
     }
 }
 
