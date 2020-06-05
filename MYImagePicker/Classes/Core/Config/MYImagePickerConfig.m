@@ -8,6 +8,8 @@
 
 #import "MYImagePickerConfig.h"
 
+#import "MYImagePickerMacro.h"
+
 NSUInteger const kYTMaxImageCount = 9;
 
 @implementation MYImagePickerConfig
@@ -19,6 +21,22 @@ NSUInteger const kYTMaxImageCount = 9;
     return config;
 }
 
+
++ (instancetype)defaultCropImageConfig
+{
+    MYImagePickerConfig *config = [[MYImagePickerConfig alloc] init];
+    config.maxImagesCount = 1;
+    config.allowCrop = YES;
+    config.showSelectBtn = NO;
+    config.allowPickingVideoAsset = NO;
+    NSInteger left = 15;
+    NSInteger widthHeight = MY_IMG_SCREEN_W - 2 * left;
+    NSInteger top = (MY_IMG_SCREEN_H - widthHeight) / 2;
+    config.cropRect = CGRectMake(left, top, widthHeight, widthHeight);
+    
+    return config;
+}
+
 //MARK: - 初始化
 - (instancetype)init
 {
@@ -27,6 +45,7 @@ NSUInteger const kYTMaxImageCount = 9;
         self.timeout = 15;
         self.photoWidth = 828.0;
         self.photoPreviewMaxWidth = 600;
+        self.allowCrop = NO;
         self.allowPreview = YES;
         self.minImagesCount = 1;
         self.maxImagesCount = kYTMaxImageCount;
@@ -37,6 +56,7 @@ NSUInteger const kYTMaxImageCount = 9;
         self.allowMinVideoTime = 5;
         self.allowMaxVideoTime = 30;
         self.allowPickingVideoAsset = YES;
+        self.showSelectBtn = YES;
     }
     
     return self;

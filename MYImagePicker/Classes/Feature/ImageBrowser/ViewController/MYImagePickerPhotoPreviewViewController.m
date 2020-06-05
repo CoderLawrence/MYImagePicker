@@ -11,11 +11,14 @@
 #import <Photos/Photos.h>
 
 #import "MYAsset.h"
+#import "MYImagePickerCropManager.h"
 
 #import "MYImagePickerMacro.h"
 
 #import "UIView+MYLayout.h"
 #import "UIImage+MYBundle.h"
+#import "UIView+MYImagePickerCrop.h"
+#import "UIViewController+MYImagePickerHUD.h"
 
 #import "MYImagePickerAssetPreviewCell.h"
 #import "MYImagePickerPreNavigationBar.h"
@@ -26,6 +29,9 @@
 static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImagePickerPreviewPohotoReuseCellIdentifier";
 
 @interface MYImagePickerPhotoPreviewViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UIScrollViewDelegate>
+
+@property (nonatomic, strong) UIView *cropBgView;
+@property (nonatomic, strong) UIView *cropView;
 
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) UICollectionViewFlowLayout *flowLayout;
@@ -112,6 +118,30 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
     return _collectionView;
 }
 
+- (UIView *)cropView
+{
+    if (_cropView == nil) {
+        _cropView = [[UIView alloc] init];
+        [_cropView setBackgroundColor:[UIColor clearColor]];
+        _cropView.layer.borderColor = [UIColor whiteColor].CGColor;
+        _cropView.layer.borderWidth = 1.0f;
+        [_cropView setUserInteractionEnabled:NO];
+    }
+    
+    return _cropView;
+}
+
+- (UIView *)cropBgView
+{
+    if (_cropBgView == nil) {
+        _cropBgView = [[UIView alloc] init];
+        [_cropBgView setUserInteractionEnabled:NO];
+        [_cropBgView setBackgroundColor:[UIColor clearColor]];
+    }
+    
+    return _cropBgView;
+}
+
 //MARK: - 视图更新
 - (void)setupUI
 {
@@ -119,6 +149,8 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
     [self.view addSubview:self.collectionView];
 }
 
+
+//MARK: - UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     CGFloat offSetWidth = scrollView.contentOffset.x;
@@ -145,7 +177,6 @@ static NSString *const MYImagePickerPreviewPohotoReuseCellIdentifier = @"MYImage
 {
     MYAsset *model = [self.models objectAtIndex:indexPath.item];
     MYImagePickerAssetPreviewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:MYImagePickerPreviewPohotoReuseCellIdentifier forIndexPath:indexPath];
-    cell.allowCrop = NO;
     [cell setIndex:[self.imagePickerVC.selectedAssetIds indexOfObject:model.asset.localIdentifier] + 1];
     __weak typeof(_imagePickerVC) weakImagePickerVC = _imagePickerVC;
     __weak typeof(cell) weakCell = cell;

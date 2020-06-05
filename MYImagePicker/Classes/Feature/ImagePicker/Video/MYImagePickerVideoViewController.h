@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) MYImagePickerViewController *assetPickerVC;
 
+- (void)reload;
+
 @end
 
 NS_ASSUME_NONNULL_END

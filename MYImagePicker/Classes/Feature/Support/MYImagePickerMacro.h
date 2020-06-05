@@ -22,7 +22,7 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 #define MY_IMG_IPHONE_BOTTOM \
 ({CGFloat bottom = 0.0;\
 if (@available(iOS 11.0, *)) {\
-isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom;\
+bottom = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom;\
 }\
 (bottom);\
 })

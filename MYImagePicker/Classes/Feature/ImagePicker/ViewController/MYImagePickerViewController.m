@@ -15,6 +15,7 @@
 #import "MYImagePickerAlbumView.h"
 #import "MYImagePickerNavigationBar.h"
 #import "MYImagePickerSegmentControl.h"
+#import "MYImagePickerAuthorizationTipsView.h"
 
 #import "MYImagePickerAssetViewController.h"
 #import "MYImagePickerVideoViewController.h"
@@ -46,6 +47,7 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
 @property (nonatomic, strong) MYImagePickerNavigationBar *naviBar;
 @property (nonatomic, strong) MYImagePickerAlbumView *albumView;
 @property (nonatomic, strong) MYImagePickerSegmentControl *segmentControl;
+@property (nonatomic, strong) MYImagePickerAuthorizationTipsView *authorizationTipsView;
 
 @property (nonatomic, strong) MYImagePickerAssetViewController *assetChildVC;
 @property (nonatomic, strong) MYImagePickerVideoViewController *videoChildVC;
@@ -182,6 +184,17 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
     return _albumView;
 }
 
+- (MYImagePickerAuthorizationTipsView *)authorizationTipsView
+{
+    if (_authorizationTipsView == nil) {
+        CGFloat height = MY_IMG_SCREEN_H - MY_IMG_Navigation_H;
+        CGRect frame = CGRectMake(0, self.naviBar.myp_bottom, self.view.myp_width, height);
+        _authorizationTipsView = [[MYImagePickerAuthorizationTipsView alloc] initWithFrame:frame];
+    }
+    
+    return _authorizationTipsView;
+}
+
 //MARK: - 视图更新
 - (void)setupUI
 {
@@ -243,6 +256,12 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
 {
     //请求相册是否已经授权
     if ([[MYImagePickerManager shared] authorizationStatusAuthorized] == NO) {
+        __weak typeof(self) wSelf = self;
+        [self.authorizationTipsView setOnSettingButtonClick:^{
+            __strong typeof(wSelf) sSelf = wSelf;
+            [sSelf settingBtnClick];
+        }];
+        [self.view addSubview:self.authorizationTipsView];
         return;
     }
     
@@ -387,7 +406,9 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
     }
     
     if ([[MYImagePickerManager shared] authorizationStatusAuthorized]) {
+        [self.authorizationTipsView removeFromSuperview];
         [self handlerFetchAlbumData];
+        [self.videoChildVC reload];
     }
 }
 
@@ -439,6 +460,10 @@ NSString *const MYImageAssetPickeReloadNotificationKey = @"MYImageAssetPickeRelo
 //MARK: - MYImagePickerSegmentControlDelegate
 - (BOOL)canChangedSelectedItem:(MYImagePickerSegmentControl *)segmentControl
 {
+    if ([[MYImagePickerManager shared] authorizationStatusAuthorized] == NO) {
+        return NO;
+    }
+    
     return YES;
 }
 

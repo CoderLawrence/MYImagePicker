@@ -22,6 +22,7 @@
 #import "MYImagePickerConfig.h"
 #import "MYImagePickerAssetCell.h"
 #import "MYImagePickerViewController.h"
+#import "MYImagePickerCropImageViewController.h"
 #import "MYImagePickerPhotoPreviewViewController.h"
 
 static NSString *const MYImagePickerAssetCellReuseIdentifier = @"MYImagePickerAssetCellReuseIdentifier";
@@ -121,6 +122,20 @@ static NSString *const MYImagePickerAssetCellReuseIdentifier = @"MYImagePickerAs
     }];
 }
 
+- (void)handlerOnCropImage:(UIImage *)cropImage asset:(PHAsset *)asset
+{
+    __weak typeof(self) weakSelf = self;
+    [self.navigationController dismissViewControllerAnimated:YES completion:^{
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        id<MYImagePickerDelegate> delegate = strongSelf.assetPickerVC.delegate;
+        if (delegate && [delegate respondsToSelector:@selector(didSelectedImageWithAssetModels:photos:imagePicker:)]) {
+            [delegate didSelectedImageWithAssetModels:@[asset]
+                                               photos:@[cropImage]
+                                          imagePicker:strongSelf.assetPickerVC];
+        }
+    }];
+}
+
 //MARK: - UICollectionViewDelegate && UICollectionViewDataSource
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
@@ -141,7 +156,7 @@ static NSString *const MYImagePickerAssetCellReuseIdentifier = @"MYImagePickerAs
     MYImagePickerAssetCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:MYImagePickerAssetCellReuseIdentifier forIndexPath:indexPath];
     MYAsset *assetModel = [self.albumModel.models objectAtIndex:indexPath.row];
     cell.allowPreview = self.assetPickerVC.config.allowPreview;
-    cell.showSelectBtn = YES;
+    cell.showSelectBtn = self.assetPickerVC.config.showSelectBtn;
     
     [cell setModel:assetModel];
     if (assetModel.isSelected) {
@@ -167,7 +182,7 @@ static NSString *const MYImagePickerAssetCellReuseIdentifier = @"MYImagePickerAs
             NSArray *selectedModels = [NSArray arrayWithArray:strongSelf.assetPickerVC.selectedModels];
             for (MYAsset *model_item in selectedModels) {
                 if ([assetModel.asset.localIdentifier isEqualToString:model_item.asset.localIdentifier]) {
-                    [self.assetPickerVC removeSelectedModel:model_item];
+                    [strongSelf.assetPickerVC removeSelectedModel:model_item];
                     break;
                 }
             }
@@ -188,7 +203,7 @@ static NSString *const MYImagePickerAssetCellReuseIdentifier = @"MYImagePickerAs
                 [strongSelf.assetPickerVC addSelectedModel:assetModel];
                 [[NSNotificationCenter defaultCenter] postNotificationName:MYImageAssetPickeReloadNotificationKey object:strongSelf.assetPickerVC];
             } else {
-                [self showPhotoSelectLimitAlert];
+                [strongSelf showPhotoSelectLimitAlert];
             }
         }
     };
@@ -199,18 +214,36 @@ static NSString *const MYImagePickerAssetCellReuseIdentifier = @"MYImagePickerAs
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     NSInteger index = indexPath.item;
-    MYImagePickerPhotoPreviewViewController *previewVC = [[MYImagePickerPhotoPreviewViewController alloc] init];
-    [previewVC setModels:[self.albumModel.models mutableCopy]];
-    [previewVC setCurrentIndex:index];
-    [previewVC setImagePickerVC:self.assetPickerVC];
-    __weak typeof(self) weakSelf = self;
-    [previewVC setBackButtonClickBlock:^(BOOL isSelectOriginalPhoto) {
-        __strong typeof(weakSelf) strongSelf = weakSelf;
-        [strongSelf.collectionView reloadData];
-        [strongSelf.assetPickerVC refershAssetSelectedStatus];
-    }];
-    
-    [self.navigationController pushViewController:previewVC animated:YES];
+    if (self.assetPickerVC.config.allowCrop) {
+        __weak typeof(self) weakSelf = self;
+        MYAsset *model = [self.albumModel.models objectAtIndex:index];
+        MYImagePickerCropImageViewController *cropImageVC = [[MYImagePickerCropImageViewController alloc] initWithModel:model];
+        [cropImageVC setImagePickerVC:self.assetPickerVC];
+        [cropImageVC setCropRect:self.assetPickerVC.config.cropRect];
+        [cropImageVC setCircleCropRadius:self.assetPickerVC.config.circleCropRadius];
+        [cropImageVC setNeedCircleCrop:self.assetPickerVC.config.needCircleCrop];
+        [cropImageVC setAllowCrop:self.assetPickerVC.config.allowCrop];
+        [cropImageVC setScaleAspectFillCrop:self.assetPickerVC.config.scaleAspectFillCrop];
+        [cropImageVC setDoneButtonClickBlockCropMode:^(UIImage * cropedImage, id asset) {
+            __strong typeof(weakSelf) strongSelf = weakSelf;
+            [strongSelf handlerOnCropImage:cropedImage asset:asset];
+        }];
+        [self.navigationController pushViewController:cropImageVC animated:YES];
+    } else {
+        MYImagePickerPhotoPreviewViewController *previewVC = [[MYImagePickerPhotoPreviewViewController alloc] init];
+        [previewVC setImagePickerVC:self.assetPickerVC];
+        //数据源赋值
+        [previewVC setModels:[self.albumModel.models mutableCopy]];
+        [previewVC setCurrentIndex:index];
+        
+        __weak typeof(self) weakSelf = self;
+        [previewVC setBackButtonClickBlock:^(BOOL isSelectOriginalPhoto) {
+            __strong typeof(weakSelf) strongSelf = weakSelf;
+            [strongSelf.collectionView reloadData];
+            [strongSelf.assetPickerVC refershAssetSelectedStatus];
+        }];
+        [self.navigationController pushViewController:previewVC animated:YES];
+    }
 }
 
 //MARK: - UICollectionViewDelegateFlowLayout

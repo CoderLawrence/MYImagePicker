@@ -37,8 +37,7 @@
 
 - (void)buttonClick
 {
-    MYImagePickerConfig *config = [MYImagePickerConfig defaultConfig];
-//    config.allowPickingVideoAsset = NO;
+    MYImagePickerConfig *config = [MYImagePickerConfig defaultCropImageConfig];
     [[MYImagePicker imagePicker] showImagePicker:self config:config delegate:self];
 }
 

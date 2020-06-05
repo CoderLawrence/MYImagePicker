@@ -28,7 +28,7 @@ NSString *const MYImagePickerPhotoLibChangedNotificationKey = @"MYImagePickerPho
 
 @implementation MYImagePickerManager
 
-CGSize AssetGridThumbnailSize;
+CGSize MYAssetGridThumbnailSize;
 CGFloat MYScreenWidth;
 CGFloat MYScreenScale;
 
@@ -74,7 +74,7 @@ CGFloat MYScreenScale;
     _columnNumber = columnNumber;
     CGFloat margin = 4;
     CGFloat itemWH = (MYScreenWidth - 2 * margin - 4) / columnNumber - margin;
-    AssetGridThumbnailSize = CGSizeMake(itemWH * MYScreenScale, itemWH * MYScreenScale);
+    MYAssetGridThumbnailSize = CGSizeMake(itemWH * MYScreenScale, itemWH * MYScreenScale);
 }
 
 - (void)configTZScreenWidth {
@@ -419,7 +419,7 @@ CGFloat MYScreenScale;
 {
     CGSize imageSize;
     if (photoWidth < MY_IMG_SCREEN_W && photoWidth < _photoPreviewMaxWidth) {
-        imageSize = AssetGridThumbnailSize;
+        imageSize = MYAssetGridThumbnailSize;
     } else {
         PHAsset *phAsset = (PHAsset *)asset;
         CGFloat aspectRatio = phAsset.pixelWidth / (CGFloat)phAsset.pixelHeight;
