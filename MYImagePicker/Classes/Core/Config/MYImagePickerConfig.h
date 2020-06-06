@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class PHAsset;
 
 /// 默认选择图片最大数，默认9张图片
-FOUNDATION_EXPORT NSUInteger const kYTMaxImageCount;
+FOUNDATION_EXPORT NSUInteger const kMYPMaxImageCount;
 
 @interface MYImagePickerConfig : NSObject
 

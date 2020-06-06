@@ -10,7 +10,7 @@
 
 #import "MYImagePickerMacro.h"
 
-NSUInteger const kYTMaxImageCount = 9;
+NSUInteger const kMYPMaxImageCount = 9;
 
 @implementation MYImagePickerConfig
 
@@ -48,7 +48,7 @@ NSUInteger const kYTMaxImageCount = 9;
         self.allowCrop = NO;
         self.allowPreview = YES;
         self.minImagesCount = 1;
-        self.maxImagesCount = kYTMaxImageCount;
+        self.maxImagesCount = kMYPMaxImageCount;
         self.sortAscendingByModificationDate = NO;
         self.selectedAssets = @[];
         self.onlyReturnAsset = NO;
